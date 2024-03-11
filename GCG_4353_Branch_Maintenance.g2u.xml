@@ -1,0 +1,2411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BorderStyle>None</BorderStyle>
+  <Pages>
+    <DefaultPage>
+      <Header>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Header>
+      <Footer>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Footer>
+      <PageSize>
+        <Width>0</Width>
+        <Height>0</Height>
+      </PageSize>
+    </DefaultPage>
+  </Pages>
+  <DisplayStrings />
+  <Selection>
+    <SelectionRect>
+      <Location>
+        <X>0</X>
+        <Y>1915</Y>
+      </Location>
+      <Size>
+        <Width>24</Width>
+        <Height>2</Height>
+      </Size>
+      <X>0</X>
+      <Y>1915</Y>
+      <Width>24</Width>
+      <Height>2</Height>
+    </SelectionRect>
+    <Options>UseColors OverwriteBlocks SelectLineOnTripleClick CopyLineWhenEmpty SelectWordOnCtrlClick</Options>
+  </Selection>
+  <Gutter>
+    <LineNumbersForeColor>WindowText</LineNumbersForeColor>
+    <Options>PaintLineNumbers PaintBookMarks PaintLineModificators</Options>
+  </Gutter>
+  <Margin>
+    <Visible>false</Visible>
+  </Margin>
+  <LineStyles />
+  <LineSeparator />
+  <Printing>
+    <Footer>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Footer>
+    <Header>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Header>
+  </Printing>
+  <WhiteSpace />
+  <TextSource>
+    <Position>
+      <X>0</X>
+      <Y>1915</Y>
+    </Position>
+    <Lexer>
+      <Scheme>
+        <Author>Quantum Whale, LLC.</Author>
+        <Copyright>Copyright (c) 2004 - 2014 Quantum Whale LLC.</Copyright>
+        <FileType>gas</FileType>
+        <Version>1.5</Version>
+        <Styles>
+          <Style>
+            <Name>idents</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>numbers</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>reswords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>comments</Name>
+            <ForeColor>Green</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>xmlcomments</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>symbols</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>whitespace</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>strings</Name>
+            <ForeColor>Maroon</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>directives</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>htmlparams</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>syntax errors</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>codes nippets</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>255:180:228:180</BackColor>
+          </Style>
+          <Style>
+            <Name>GabReservedWords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabTokenWithBrackets</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabFunctionIntrinsicDebug</Name>
+            <ForeColor>White</ForeColor>
+            <BackColor>Red</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>GabVariable</Name>
+            <ForeColor>Teal</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabVariableSystemDefined</Name>
+            <ForeColor>Teal</ForeColor>
+            <FontStyle>Bold Italic</FontStyle>
+          </Style>
+          <Style>
+            <Name>GabGui</Name>
+            <ForeColor>OrangeRed</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabProgramSubStartEnd</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>LightGray</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+        </Styles>
+      </Scheme>
+    </Lexer>
+    <TextStrings>
+      <Lines>
+        <string>Program.Sub.ScreenSU.Start</string>
+        <string>Gui.SS_Branch_Maint_Form..Create</string>
+        <string>Gui.SS_Branch_Maint_Form..Caption("Branch Maintenance")</string>
+        <string>Gui.SS_Branch_Maint_Form..Size(15765,10440)</string>
+        <string>Gui.SS_Branch_Maint_Form..MinX(0)</string>
+        <string>Gui.SS_Branch_Maint_Form..MinY(0)</string>
+        <string>Gui.SS_Branch_Maint_Form..Position(0,0)</string>
+        <string>Gui.SS_Branch_Maint_Form..BackColor(-2147483633)</string>
+        <string>Gui.SS_Branch_Maint_Form..MousePointer(0)</string>
+        <string>Gui.SS_Branch_Maint_Form..Event(UnLoad,SS_Branch_Maint_Form_UnLoad)</string>
+        <string>Gui.SS_Branch_Maint_Form.tab1.Create(Tab)</string>
+        <string>Gui.SS_Branch_Maint_Form.tab1.Size(15270,9660)</string>
+        <string>Gui.SS_Branch_Maint_Form.tab1.Position(120,210)</string>
+        <string>Gui.SS_Branch_Maint_Form.tab1.Tabs(2)</string>
+        <string>Gui.SS_Branch_Maint_Form.tab1.SetTab(0)</string>
+        <string>Gui.SS_Branch_Maint_Form.tab1.Caption("Branch Manegement")</string>
+        <string>Gui.SS_Branch_Maint_Form.tab1.SetTab(1)</string>
+        <string>Gui.SS_Branch_Maint_Form.tab1.Caption("Picklist Manegement")</string>
+        <string>Gui.SS_Branch_Maint_Form.frame_Customer.Create(Frame)</string>
+        <string>Gui.SS_Branch_Maint_Form.frame_Customer.Size(14925,1995)</string>
+        <string>Gui.SS_Branch_Maint_Form.frame_Customer.Position(105,195)</string>
+        <string>Gui.SS_Branch_Maint_Form.frame_Customer.Caption("Customer Information")</string>
+        <string>Gui.SS_Branch_Maint_Form.frame_Customer.Parent("tab1",0)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_CustSave.Create(Button)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_CustSave.Size(915,375)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_CustSave.Position(105,1560)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_CustSave.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_CustSave.Caption("Save")</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_CustSave.Event(Click,cmd_Save_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Cust.Create(Label,"Customer Number",True,1485,255,0,105,315,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Cust.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Cust.Create(TextBox,"",True,1635,300,0,105,540,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Cust.Event(GotFocus,txt_Branch_GotFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Cust.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Cust.Event(LostFocus,txt_Branch_LostFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_Cust.Create(Button)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_Cust.Size(345,345)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_Cust.Position(1890,510)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_Cust.Caption("^")</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_Cust.Event(Click,cmd_Cust_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_Cust.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_CustName.Create(Label,"Customer Name",True,1935,255,0,2385,315,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_CustName.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CustName.Create(TextBox,"",True,2055,300,0,2385,540,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CustName.Event(GotFocus,txt_Branch_GotFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CustName.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CountryCust.Create(TextBox,"",True,2055,300,0,10740,1170,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CountryCust.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CountryCust.Event(GotFocus,txt_Branch_GotFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Country2.Create(Label,"Country",True,1485,255,0,10740,945,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Country2.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_ZipCust.Create(TextBox,"",True,1455,300,0,9060,1170,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_ZipCust.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_ZipCust.Event(GotFocus,txt_Branch_GotFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Zip2.Create(Label,"Postal/Zip",True,1230,255,0,9060,945,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Zip2.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_StateCust.Create(TextBox,"",True,2055,300,0,6825,1170,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_StateCust.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_StateCust.Event(GotFocus,txt_Branch_GotFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_State2.Create(Label,"State",True,1935,255,0,6825,945,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_State2.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CityCust.Create(TextBox,"",True,2055,300,0,4605,1170,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CityCust.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CityCust.Event(GotFocus,txt_Branch_GotFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_City2.Create(Label,"City",True,1935,255,0,4605,945,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_City2.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Add2Cust.Create(TextBox,"",True,2055,300,0,2355,1170,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Add2Cust.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Add2Cust.Event(GotFocus,txt_Branch_GotFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Add3.Create(Label,"Address 2",True,1935,255,0,2355,945,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Add3.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Add1Cust.Create(TextBox,"",True,2055,300,0,105,1170,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Add1Cust.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Add1Cust.Event(GotFocus,txt_Branch_GotFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Add4.Create(Label,"Address 1",True,1935,255,0,105,945,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Add4.Parent("frame_Customer")</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGridControl_Branch.Create(GsGridControl)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGridControl_Branch.Size(14925,2625)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGridControl_Branch.Position(105,6150)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGridControl_Branch.Parent("tab1",0)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGridControl_Branch.Event(RowClick,RowCell_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGridControl_Branch.Event(RowCellClick,GsGridControl_Branch_RowCellClick)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_BranchSave.Create(Button)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_BranchSave.Size(915,375)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_BranchSave.Position(105,8865)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_BranchSave.Caption("Save")</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_BranchSave.Event(Click,cmd_Save_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_BranchSave.Parent("tab1",0)</string>
+        <string>Gui.SS_Branch_Maint_Form.framePickList.Create(Frame)</string>
+        <string>Gui.SS_Branch_Maint_Form.framePickList.Size(14880,1140)</string>
+        <string>Gui.SS_Branch_Maint_Form.framePickList.Position(105,240)</string>
+        <string>Gui.SS_Branch_Maint_Form.framePickList.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.framePickList.Caption("PickeList")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_PickListSelection.Create(DropDownList)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_PickListSelection.Size(1950,330)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_PickListSelection.Position(105,555)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_PickListSelection.Parent("framePickList")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_PickListSelection.Event(Click,ddl_PickListSelection_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_PickList.Create(Label,"Select Picklist to Add",True,2520,255,0,105,315,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_PickList.Parent("framePickList")</string>
+        <string>Gui.SS_Branch_Maint_Form.txtPickList.Create(TextBox,"",True,4425,300,0,2565,570,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txtPickList.Parent("framePickList")</string>
+        <string>Gui.SS_Branch_Maint_Form.cmdPickListAdd.Create(Button)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmdPickListAdd.Size(855,375)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmdPickListAdd.Position(7155,540)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmdPickListAdd.Parent("framePickList")</string>
+        <string>Gui.SS_Branch_Maint_Form.cmdPickListAdd.Caption("Add")</string>
+        <string>Gui.SS_Branch_Maint_Form.cmdPickListAdd.Event(Click,cmdPickListAdd_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblPickListValue.Create(Label,"Value",True,675,255,0,6300,345,True,1,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblPickListValue.Parent("framePickList")</string>
+        <string>Gui.SS_Branch_Maint_Form.lblSecurity.Create(Label,"Select Group",True,1185,255,0,11670,195,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblSecurity.Parent("framePickList")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddlSecurity.Create(DropDownList)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddlSecurity.Size(1905,330)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddlSecurity.Position(12930,120)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddlSecurity.Parent("framePickList")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddlSecurity.Event(Click,ddlSecurity_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_PickListSave.Create(Button)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_PickListSave.Size(855,375)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_PickListSave.Position(105,8790)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_PickListSave.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_PickListSave.Caption("Save")</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_PickListSave.Event(Click,cmd_PickListSave_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Market.Create(GsGridControl)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Market.Size(2925,3255)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Market.Position(105,1740)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Market.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Market.Event(RowCellClick,RowCell_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Territory.Create(GsGridControl)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Territory.Size(2925,3255)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Territory.Position(3105,1740)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Territory.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Territory.Event(RowCellClick,RowCell_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Region.Create(GsGridControl)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Region.Size(2925,3255)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Region.Position(6090,1740)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Region.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Region.Event(RowCellClick,RowCell_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_InternalRegion.Create(GsGridControl)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_InternalRegion.Size(2925,3255)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_InternalRegion.Position(9090,1740)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_InternalRegion.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_InternalRegion.Event(RowCellClick,RowCell_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_FieldSalesReps.Create(GsGridControl)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_FieldSalesReps.Size(2925,3255)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_FieldSalesReps.Position(12060,1740)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_FieldSalesReps.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_FieldSalesReps.Event(RowCellClick,RowCell_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblPMarket.Create(Label,"Market",True,1935,255,0,105,1515,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblPMarket.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblPTerritory.Create(Label,"Territory",True,1935,255,0,3090,1515,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblPTerritory.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblPRegion.Create(Label,"Region",True,1935,255,0,6090,1515,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblPRegion.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblPIntRegion.Create(Label,"Internal Region",True,1935,255,0,9075,1515,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblPIntRegion.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblPFieldSalesRep.Create(Label,"Field Sales Rep",True,1935,255,0,12060,1515,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblPFieldSalesRep.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.frameBranchInfo.Create(Frame)</string>
+        <string>Gui.SS_Branch_Maint_Form.frameBranchInfo.Size(14925,3750)</string>
+        <string>Gui.SS_Branch_Maint_Form.frameBranchInfo.Position(90,2325)</string>
+        <string>Gui.SS_Branch_Maint_Form.frameBranchInfo.Parent("tab1",0)</string>
+        <string>Gui.SS_Branch_Maint_Form.frameBranchInfo.Caption("Branch Information")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_ChannelType.Create(Label,"Channel Type",True,1485,255,0,4215,405,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_ChannelType.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Loc.Create(Label,"Location",True,1485,255,0,6450,405,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Loc.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Loc.Create(DropDownList)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Loc.Size(2055,330)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Loc.Position(6450,630)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Loc.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.chk_Dropped.Create(CheckBox)</string>
+        <string>Gui.SS_Branch_Maint_Form.chk_Dropped.Size(3090,360)</string>
+        <string>Gui.SS_Branch_Maint_Form.chk_Dropped.Position(105,2940)</string>
+        <string>Gui.SS_Branch_Maint_Form.chk_Dropped.Caption("Dropped")</string>
+        <string>Gui.SS_Branch_Maint_Form.chk_Dropped.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.chk_NAcct.Create(CheckBox)</string>
+        <string>Gui.SS_Branch_Maint_Form.chk_NAcct.Size(3090,360)</string>
+        <string>Gui.SS_Branch_Maint_Form.chk_NAcct.Position(105,2580)</string>
+        <string>Gui.SS_Branch_Maint_Form.chk_NAcct.Caption("Exclude from Territory Rep Budget")</string>
+        <string>Gui.SS_Branch_Maint_Form.chk_NAcct.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_ClassCode.Create(DropDownList)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_ClassCode.Size(2055,330)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_ClassCode.Position(8685,630)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_ClassCode.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_BranchAdd.Create(Button)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_BranchAdd.Size(810,375)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_BranchAdd.Position(105,3285)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_BranchAdd.Caption("Add")</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_BranchAdd.Event(Click,cmd_BranchAdd_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_BranchAdd.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Discount.Create(DropDownList)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Discount.Size(795,330)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Discount.Position(13185,630)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Discount.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_IntRegion.Create(DropDownList)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_IntRegion.Size(2055,330)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_IntRegion.Position(6825,1590)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_IntRegion.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_LineAcess.Create(DropDownList)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_LineAcess.Size(2055,330)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_LineAcess.Position(10935,630)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_LineAcess.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Market.Create(DropDownList)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Market.Size(2055,330)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Market.Position(105,1590)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Market.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Region.Create(DropDownList)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Region.Size(2055,330)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Region.Position(4605,1590)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Region.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_SalesRep.Create(DropDownList)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_SalesRep.Size(2055,330)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_SalesRep.Position(9060,1590)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_SalesRep.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Territory.Create(DropDownList)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Territory.Size(2055,330)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Territory.Position(2355,1590)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Territory.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_ClassCode.Create(Label,"Class Code",True,1485,255,0,8685,405,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_ClassCode.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Discount.Create(Label,"Discount",True,870,255,0,13185,405,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Discount.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_IntRegion.Create(Label,"Internal Region",True,1485,255,0,6825,1380,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_IntRegion.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_LineAccess.Create(Label,"Line Acess",True,1485,255,0,10935,405,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_LineAccess.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Market.Create(Label,"Market",True,1485,255,0,105,1380,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Market.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Region.Create(Label,"Region",True,1485,255,0,4605,1380,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Region.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_SalesForecast.Create(Label,"Field Sales Forecast",True,1815,255,0,11340,1380,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_SalesForecast.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Territory.Create(Label,"Territory",True,1485,255,0,2355,1380,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Territory.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_SalesRep.Create(Label,"Field Sales Rep",True,1485,255,0,9060,1380,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_SalesRep.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_SalesForcast.Create(TextBox,"",True,2055,300,0,11340,1590,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_SalesForcast.Event(GotFocus,txt_Branch_GotFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_SalesForcast.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_ChannelType.Create(DropDownList)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_ChannelType.Size(2055,330)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_ChannelType.Position(4245,630)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_ChannelType.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.chk_CopyCustAddress.Create(CheckBox)</string>
+        <string>Gui.SS_Branch_Maint_Form.chk_CopyCustAddress.Size(2400,270)</string>
+        <string>Gui.SS_Branch_Maint_Form.chk_CopyCustAddress.Position(105,1005)</string>
+        <string>Gui.SS_Branch_Maint_Form.chk_CopyCustAddress.Caption("Copy Customer Address")</string>
+        <string>Gui.SS_Branch_Maint_Form.chk_CopyCustAddress.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.chk_CopyCustAddress.Event(Click,chk_CopyCustAddress_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Branch.Create(Label,"Branch",True,1935,255,0,105,405,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Branch.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Branch.Create(TextBox,"",True,1605,300,0,105,630,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Branch.Event(GotFocus,txt_Branch_GotFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Branch.Event(LostFocus,txt_Branch_LostFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Branch.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_Branch.Create(Button)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_Branch.Size(345,345)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_Branch.Position(1845,600)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_Branch.Caption("^")</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_Branch.Event(Click,cmd_Branch_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_Branch.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.lblBranchName.Create(Label,"Branch Name",True,1710,255,0,2310,405,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblBranchName.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.txtBranchName.Create(TextBox,"",True,1770,300,0,2310,630,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txtBranchName.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.txtBranchName.Event(GotFocus,txt_Branch_GotFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CountryBranch.Create(TextBox,"",True,2055,300,0,10830,2235,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CountryBranch.Event(GotFocus,txt_Branch_GotFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CountryBranch.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Country.Create(Label,"Country",True,1485,255,0,10830,2010,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Country.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_ZipBranch.Create(TextBox,"",True,1455,300,0,9195,2235,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_ZipBranch.Event(GotFocus,txt_Branch_GotFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_ZipBranch.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Zip.Create(Label,"Postal/Zip",True,1230,255,0,9195,2010,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Zip.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_StateBranch.Create(TextBox,"",True,2055,300,0,6900,2235,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_StateBranch.Event(GotFocus,txt_Branch_GotFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_StateBranch.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_State.Create(Label,"State",True,1935,255,0,6900,2010,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_State.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CityBranch.Create(TextBox,"",True,2055,300,0,4635,2235,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CityBranch.Event(GotFocus,txt_Branch_GotFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CityBranch.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_City.Create(Label,"City",True,1935,255,0,4635,2010,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_City.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Add2Branch.Create(TextBox,"",True,2055,300,0,2385,2235,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Add2Branch.Event(GotFocus,txt_Branch_GotFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Add2Branch.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Add2.Create(Label,"Address 2",True,1935,255,0,2385,2010,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Add2.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Add1Branch.Create(TextBox,"",True,2055,300,0,105,2235,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Add1Branch.Event(GotFocus,txt_Branch_GotFocus)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Add1Branch.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Add1.Create(Label,"Address 1",True,1935,255,0,105,2010,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lbl_Add1.Parent("frameBranchInfo")</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_ClassCode.Create(GsGridControl)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_ClassCode.Size(2925,3255)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_ClassCode.Position(6090,5355)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_ClassCode.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_ClassCode.Event(RowCellClick,RowCell_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Location.Create(GsGridControl)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Location.Size(2925,3255)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Location.Position(3105,5355)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Location.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Location.Event(RowCellClick,RowCell_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Channel.Create(GsGridControl)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Channel.Size(2925,3255)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Channel.Position(105,5355)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Channel.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Channel.Event(RowCellClick,RowCell_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_LineAcess.Create(GsGridControl)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_LineAcess.Size(2925,3255)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_LineAcess.Position(9090,5355)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_LineAcess.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_LineAcess.Event(RowCellClick,RowCell_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Discount.Create(GsGridControl)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Discount.Size(2925,3255)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Discount.Position(12060,5355)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Discount.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Discount.Event(RowCellClick,RowCell_Click)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblPChannel.Create(Label,"Channel Type",True,1935,255,0,105,5130,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblPChannel.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblLocation.Create(Label,"Location",True,1935,255,0,3105,5130,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblLocation.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblClassCode.Create(Label,"Class Code",True,1935,255,0,6090,5130,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblClassCode.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblLineAccess.Create(Label,"Line Access",True,1935,255,0,9090,5130,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblLineAccess.Parent("tab1",1)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblDiscount.Create(Label,"Discount",True,1935,255,0,12060,5130,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.SS_Branch_Maint_Form.lblDiscount.Parent("tab1",1)</string>
+        <string>Program.Sub.ScreenSU.End</string>
+        <string />
+        <string>Program.Sub.Preflight.Start</string>
+        <string>V.Global.iRowIndex.Declare(Long,-1)</string>
+        <string>V.Global.sControlName.Declare(String)</string>
+        <string>Variable.Global.sSelection.Declare(String)</string>
+        <string>Program.Sub.Preflight.End</string>
+        <string />
+        <string>Program.Sub.Main.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Main_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.sText.Declare(String)</string>
+        <string>V.Local.i.Declare(String)</string>
+        <string>V.Local.bGroup.Declare(Boolean,False)</string>
+        <string />
+        <string>'opening connection</string>
+        <string>F.ODBC.Connection!con.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass)</string>
+        <string />
+        <string>F.Intrinsic.Control.CallSub(build_table)</string>
+        <string />
+        <string>Gui.SS_Branch_Maint_Form.tab1.SetTab(0)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.txt_Add1Branch.Mask("&gt;")</string>
+        <string>gui.SS_Branch_Maint_Form.txt_Add2Branch.Mask("&gt;")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Branch.Mask("&gt;")</string>
+        <string>Gui.SS_Branch_Maint_Form.txtBranchNamel.Mask("&gt;")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CustName.Mask("&gt;")</string>
+        <string>gui.SS_Branch_Maint_Form.txt_CityBranch.Mask("&gt;")</string>
+        <string>gui.SS_Branch_Maint_Form.txt_CountryBranch.Mask("&gt;")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Cust.Mask("&gt;")</string>
+        <string>gui.SS_Branch_Maint_Form.txt_StateBranch.Mask("&gt;")</string>
+        <string>Gui.SS_Branch_Maint_Form.txtPickList.Mask("&gt;")</string>
+        <string />
+        <string>Gui.SS_Branch_Maint_Form.txt_CustName.Locked(True)</string>
+        <string />
+        <string>'building dictionary for branch text box</string>
+        <string>V.Local.sSql.Set("Select Branch, rtrim(Branch) From GCG_4353_Branch_Line")</string>
+        <string>F.Data.Dictionary.CreateFromSql("Branch","con",V.Local.sSql)</string>
+        <string>F.Data.Dictionary.SetDefaultReturn("Branch","-1")</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Branch.AddAutoCompleteItem("Branch","Dictionary")</string>
+        <string />
+        <string>'building dictionary for customer</string>
+        <string>V.Local.sSql.Set("Select Customer, rtrim(Customer) From V_Customer_Master")</string>
+        <string>F.Data.Dictionary.CreateFromSQL("Cust","con",V.Local.sSql)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Cust.AddAutoCompleteItem("Cust","Dictionary")</string>
+        <string />
+        <string>'creating the context menu</string>
+        <string>Gui.SS_Branch_Maint_Form..ContextMenuCreate("Branch")</string>
+        <string>Gui.SS_Branch_Maint_Form..ContextMenuCreate("PickList")</string>
+        <string>'adding the menu items to the context menu</string>
+        <string>Gui.SS_Branch_Maint_Form..ContextMenuAddItem("Branch","Item 0",0)</string>
+        <string>'Gui.SS_Branch_Maint_Form..ContextMenuAddItem("Branch","Item 1",0)</string>
+        <string>Gui.SS_Branch_Maint_Form..ContextMenuAddItem("PickList","Item 0",0)</string>
+        <string>'dynamically re-titling Items</string>
+        <string>Gui.SS_Branch_Maint_Form..ContextMenuSetItemText("Branch","Item 0","Delete Branch")</string>
+        <string>'Gui.SS_Branch_Maint_Form..ContextMenuSetItemText("Branch","Item 1","Delete Customer")</string>
+        <string>'attaching selection to subroutine</string>
+        <string>Gui.SS_Branch_Maint_Form..ContextMenuSetItemEventHandler("Branch","Item 0",CustDelete)</string>
+        <string>'Gui.SS_Branch_Maint_Form..ContextMenuSetItemEventHandler("Branch","Item 1",CustDelete)</string>
+        <string>Gui.SS_Branch_Maint_Form..ContextMenuSetItemEventHandler("PickList","Item 0",PickListDelete)</string>
+        <string />
+        <string>F.Intrinsic.Control.CallSub(populate_dropdownlists)</string>
+        <string />
+        <string>'only supevsr can see group ddl</string>
+        <string>F.Intrinsic.Control.If(V.Caller.User,=,"SUPERVSR")</string>
+        <string>	Gui.SS_Branch_Maint_Form.ddlSecurity.Visible(True)</string>
+        <string>	gui.SS_Branch_Maint_Form.lblSecurity.Visible(True)</string>
+        <string>	'getting user groups</string>
+        <string>	F.Global.Security.GetAllUserGroups(V.Caller.CompanyCode,V.Local.sText)</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sText,"*!*",V.Local.sText)</string>
+        <string>	Gui.SS_Branch_Maint_Form.ddlSecurity.AddItem("")</string>
+        <string>	F.Intrinsic.Control.For(V.Local.i,0,V.Local.sText.UBound,1)</string>
+        <string>		F.Intrinsic.Control.If(V.Local.sText(V.Local.i).Length,&gt;,0)</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddlSecurity.AddItem(V.Local.sText(V.Local.i))</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string />
+        <string>	'creating group datatable</string>
+        <string>	V.Local.sSql.Set("Select * From GCG_4353_Group_Sec")</string>
+        <string />
+        <string>	F.Data.DataTable.CreateFromSQL("Group","con",V.Local.sSql,True)</string>
+        <string />
+        <string>	F.Intrinsic.Control.If(V.DataTable.Group.RowCount--,&gt;,-1)</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddlSecurity.Text(V.DataTable.Group(V.DataTable.Group.RowCount--).Group_Name!FieldValTrim)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	Gui.SS_Branch_Maint_Form.ddlSecurity.Visible(False)</string>
+        <string>	gui.SS_Branch_Maint_Form.lblSecurity.Visible(False)</string>
+        <string />
+        <string>	'getting group</string>
+        <string>	V.Local.sSql.Set("Select * From GCG_4353_Group_Sec")</string>
+        <string />
+        <string>	F.Data.DataTable.CreateFromSQL("Group","con",V.Local.sSql,True)</string>
+        <string />
+        <string>	'seeing if user is in securityGroup</string>
+        <string>	F.Intrinsic.Control.If(V.DataTable.Group.RowCount--,&gt;,-1)</string>
+        <string />
+        <string>		F.Global.Security.IsInGroup(V.Caller.User,V.DataTable.Group(V.DataTable.Group.RowCount--).Group_Name!FieldValTrim,V.Caller.CompanyCode,V.Local.bGroup)</string>
+        <string />
+        <string>		F.Intrinsic.Control.If(V.Local.bGroup,=,False)</string>
+        <string>			Gui.SS_Branch_Maint_Form.tab1.TabVisible(1,False)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			Gui.SS_Branch_Maint_Form.tab1.TabVisible(1,True)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.cmd_CustSave.Enabled(False)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_BranchSave.Enabled(False)</string>
+        <string>Gui.SS_Branch_Maint_Form.cmd_PickListSave.Enabled(False)</string>
+        <string>Gui.SS_Branch_Maint_Form..Show(True)</string>
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Main_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Main.End</string>
+        <string />
+        <string>Program.Sub.SS_Branch_Maint_Form_UnLoad.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("SS_Branch_Maint_Form_UnLoad_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>'closing group datatable</string>
+        <string>F.Intrinsic.Control.If(V.DataTable.Group.exists,=,True)</string>
+        <string>	F.Data.DataTable.Close("Group")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>'closing connection</string>
+        <string>F.ODBC.Connection!con.Close</string>
+        <string>'ending program</string>
+        <string>F.Intrinsic.Control.End</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("SS_Branch_Maint_Form_UnLoad_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.End</string>
+        <string />
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.SS_Branch_Maint_Form_UnLoad.End</string>
+        <string />
+        <string>Program.Sub.cmd_Save_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmd_Save_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sFilter.Declare(String)</string>
+        <string>V.Local.iDataTableIndex.Declare(Long)</string>
+        <string>V.Local.sRet.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.Control.BlockEvents</string>
+        <string />
+        <string>F.Intrinsic.Control.SelectCase(V.Args.ControlName)</string>
+        <string>	F.Intrinsic.Control.Case("CMD_CUSTSAVE")</string>
+        <string>		gui.SS_Branch_Maint_Form.cmd_CustSave.Enabled(False)</string>
+        <string>		'seeing if branch already exists</string>
+        <string>		F.Intrinsic.String.Build("Customer = '{0}'",V.Screen.SS_Branch_Maint_Form!txt_Cust.Text,V.Local.sFilter)</string>
+        <string>		F.Data.DataView.Create("BranchHead","BranchHead",22,V.Local.sFilter,"Customer")</string>
+        <string>		F.Intrinsic.Control.If(V.DataView.BranchHead!BranchHead.Rowcount--,=,-1)</string>
+        <string>			F.Data.DataTable.AddRow("BranchHead","Customer",V.Screen.SS_Branch_Maint_Form!txt_Cust.Text,"Customer_Name",V.Screen.SS_Branch_Maint_Form!txt_CustName.Text,"Address1",V.Screen.SS_Branch_Maint_Form!txt_Add1Cust.Text,"Address2",V.Screen.SS_Branch_Maint_Form!txt_Add2Cust.Text,"City",V.Screen.SS_Branch_Maint_Form!txt_CityCust.Text,"State",V.Screen.SS_Branch_Maint_Form!txt_StateCust.Text,"Zip",V.Screen.SS_Branch_Maint_Form!txt_ZipCust.Text,"Country",V.Screen.SS_Branch_Maint_Form!txt_CountryCust.Text)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			V.Local.iDataTableIndex.Set(V.DataView.BranchHead!BranchHead.Branch(0).DataTableIndex)</string>
+        <string>			F.Data.DataTable.SetValue("BranchHead",V.Local.iDataTableIndex,"Customer_Name",V.Screen.SS_Branch_Maint_Form!txt_CustName.Text,"Address1",V.Screen.SS_Branch_Maint_Form!txt_Add1Cust.Text,"Address2",V.Screen.SS_Branch_Maint_Form!txt_Add2Cust.Text,"City",V.Screen.SS_Branch_Maint_Form!txt_CityCust.Text,"State",V.Screen.SS_Branch_Maint_Form!txt_StateCust.Text,"Zip",V.Screen.SS_Branch_Maint_Form!txt_ZipCust.Text,"Country",V.Screen.SS_Branch_Maint_Form!txt_CountryCust.Text)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>		'closing dataview</string>
+        <string>		F.Data.DataView.Close("BranchHead","BranchHead")</string>
+        <string />
+        <string>'		'adding to dictionary if not already in dictionary</string>
+        <string>'		V.Local.sRet.Set(V.Dictionary.Branch![V.Screen.SS_Branch_Maint_Form!txt_Branch.Text])</string>
+        <string>'		F.Intrinsic.Control.If(V.Local.sRet,=,"-1")</string>
+        <string>'			F.Data.Dictionary.AddItem("Branch",V.Screen.SS_Branch_Maint_Form!txt_Branch.Text,V.Screen.SS_Branch_Maint_Form!txt_Branch.Text)</string>
+        <string />
+        <string>'		F.Intrinsic.Control.EndIf</string>
+        <string>		F.Data.DataTable.SaveToDB("BranchHead","con","GCG_4353_Branch_Head","Customer",7,"Customer@!@Customer*!*Customer_Name@!@Customer_Name*!*Address1@!@Address1*!*Address2@!@Address2*!*City@!@City*!*State@!@State*!*Zip@!@Zip*!*Country@!@Country")</string>
+        <string>	F.Intrinsic.Control.Case("CMD_BRANCHSAVE")</string>
+        <string>		Gui.SS_Branch_Maint_Form.cmd_BranchSave.Enabled(False)</string>
+        <string>		F.Data.DataTable.SaveToDB("BranchHead","con","GCG_4353_Branch_Head","Customer",7,"Customer@!@Customer*!*Customer_Name@!@Customer_Name*!*Address1@!@Address1*!*Address2@!@Address2*!*City@!@City*!*State@!@State*!*Zip@!@Zip*!*Country@!@Country")</string>
+        <string>		F.Data.DataTable.SaveToDB("BranchLine","con","GCG_4353_Branch_Line","Branch*!*Customer",7,"Branch@!@Branch*!*Customer@!@Customer*!*Branch_Name@!@Branch_Name*!*B_Address1@!@B_Address1*!*B_Address2@!@B_Address2*!*B_City@!@B_City*!*B_State@!@B_State*!*B_Zip@!@B_Zip*!*B_Country@!@B_Country*!*Channel_Type@!@Channel_Type*!*Locale@!@Locale*!*Class_Code@!@Class_Code*!*Line_Access@!@Line_Access*!*Discount@!@Discount*!*Market@!@Market*!*Territory@!@Territory*!*Internal_Region@!@Internal_Region*!*Region@!@Region*!*Field_Sales_Rep@!@Field_Sales_Rep*!*National_Account@!@National_Account*!*Dropped@!@Dropped*!*Sales_Forecast_CY@!@Sales_Forecast_CY")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Branch.AddAutoCompleteItem("Branch","Dictionary")</string>
+        <string />
+        <string>		F.Intrinsic.Control.CallSub(build_table)</string>
+        <string />
+        <string>F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string>F.Intrinsic.Control.UnBlockEvents</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmd_Save_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmd_Save_Click.End</string>
+        <string />
+        <string>Program.Sub.txt_Branch_GotFocus.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("txt_Branch_GotFocus_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.Control.SelectCase(V.Args.ControlName)</string>
+        <string>	F.Intrinsic.Control.Case("TXT_CUST")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Cust.SelectAll	</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("TXT_BRANCH")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Branch.SelectAll</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("TXT_ADD1BRANCH")	</string>
+        <string>		gui.SS_Branch_Maint_Form.txt_Add1Branch.SelectAll</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("TXT_ADD1CUST")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Add1Cust.SelectAll</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("TXT_ADD2BRANCH")	</string>
+        <string>		gui.SS_Branch_Maint_Form.txt_Add2Branch.SelectAll</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("TXT_ADD2CUST")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Add2Cust.SelectAll</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("TXT_CUSTNAME")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_CustName.SelectAll</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("TXTBRANCHNAME")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txtBranchName.SelectAll</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("TXT_CITYBRANCH")		</string>
+        <string>		gui.SS_Branch_Maint_Form.txt_CityBranch.SelectAll</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("TXT_CITYCUST")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_CityCust.SelectAll</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("TXT_COUNTRYBRANCH")		</string>
+        <string>		gui.SS_Branch_Maint_Form.txt_CountryBranch.SelectAll</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("TXT_COUNTRYCUST")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_CountryCust.SelectAll</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("TXT_SALESFORCAST")		</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_SalesForcast.SelectAll</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("TXT_STATEBRANCH")		</string>
+        <string>		gui.SS_Branch_Maint_Form.txt_StateBranch.SelectAll</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("TXT_STATECUST")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_StateCust.SelectAll</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("TXT_ZIPBRANCH")		</string>
+        <string>		gui.SS_Branch_Maint_Form.txt_ZipBranch.SelectAll</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("TXT_ZIPCUST")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_ZipCust.SelectAll</string>
+        <string />
+        <string>F.Intrinsic.Control.EndSelect</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("txt_Branch_GotFocus_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.txt_Branch_GotFocus.End</string>
+        <string />
+        <string>Program.Sub.txt_Branch_LostFocus.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("txt_Branch_LostFocus_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sText.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.sRet.Declare(String)</string>
+        <string>V.Local.sFilter.Declare(String)</string>
+        <string>V.Local.sDiscount.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.Control.SelectCase(V.Args.ControlName)</string>
+        <string>	F.Intrinsic.Control.Case("TXT_CUST")</string>
+        <string>		V.Local.sRet.Set(V.Screen.SS_Branch_Maint_Form!txt_Cust.Text)</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Cust.Text(V.Local.sRet.UCase)</string>
+        <string>		F.Intrinsic.String.Build("Select Customer, Name_Customer, Address1, Address2, City, State, Zip, Country From V_Customer_Master Where Customer = '{0}'",V.Local.sRet.UCase,V.Local.sSql)</string>
+        <string>		F.Data.DataTable.CreateFromSQL("CustTemp","con",V.Local.sSql,True)</string>
+        <string>		F.Intrinsic.Control.If(V.DataTable.CustTemp.RowCount--,&lt;&gt;,-1)</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_CustName.Text(V.DataTable.CustTemp(V.DataTable.CustTemp.RowCount--).Name_Customer!FieldValTrim)</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_Add1Cust.Text(V.DataTable.CustTemp(V.DataTable.CustTemp.RowCount--).Address1!FieldValTrim)</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_Add2Cust.Text(V.DataTable.CustTemp(V.DataTable.CustTemp.RowCount--).Address2!FieldValTrim)</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_CityCust.Text(V.DataTable.CustTemp(V.DataTable.CustTemp.RowCount--).City!FieldValTrim)</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_CountryCust.Text(V.DataTable.CustTemp(V.DataTable.CustTemp.RowCount--).Country!FieldValTrim)</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_StateCust.Text(V.DataTable.CustTemp(V.DataTable.CustTemp.RowCount--).State!FieldValTrim)</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_ZipCust.Text(V.DataTable.CustTemp(V.DataTable.CustTemp.RowCount--).Zip!FieldValTrim)</string>
+        <string>			F.Data.DataTable.Close("CustTemp")</string>
+        <string />
+        <string>			Gui.SS_Branch_Maint_Form.cmd_CustSave.Enabled(True)</string>
+        <string />
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_CustName.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_Add1Cust.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_Add2Cust.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_CityCust.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_CountryCust.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_StateCust.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_ZipCust.Text("")</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Intrinsic.Control.CallSub(cmd_save_click,"ControlName","CMD_CUSTSAVE")</string>
+        <string />
+        <string>		F.Intrinsic.Control.CallSub(build_table)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("TXT_BRANCH")</string>
+        <string>		V.Local.sRet.Set(V.Screen.SS_Branch_Maint_Form!txt_Branch.Text)</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Branch.Text(V.Local.sRet.UCase)</string>
+        <string />
+        <string>		F.Intrinsic.String.Build("Branch = '{0}'",V.Local.sRet.UCase,V.Local.sFilter)</string>
+        <string>		F.Data.DataView.Create("BranchLine","BranchTemp",22,V.Local.sFilter,"Branch")</string>
+        <string />
+        <string>		F.Intrinsic.Control.If(V.DataView.BranchLine!BranchTemp.RowCount--,&lt;&gt;,-1)</string>
+        <string>			Gui.SS_Branch_Maint_Form.txtBranchName.Text(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).Branch_Name!FieldValTrim)</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_Add1Branch.Text(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).B_Address1!FieldValTrim)</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_Add2Branch.Text(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).B_Address2!FieldValTrim)</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_CityBranch.Text(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).B_City!FieldValTrim)</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_StateBranch.Text(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).B_State!FieldValTrim)</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_ZipBranch.Text(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).B_Zip!FieldValTrim)			</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_CountryBranch.Text(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).B_Country!FieldValTrim)</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_ChannelType.Text(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).Channel_Type!FieldValTrim)		</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_Loc.Text(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).Locale!FieldValTrim)		</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_ClassCode.Text(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).Class_Code!FieldValTrim)		</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_LineAcess.Text(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).Line_Access!FieldValTrim)		</string>
+        <string>			F.Intrinsic.Math.Mult(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).Discount!FieldValFloat,100,V.Local.sDiscount)</string>
+        <string>			F.Intrinsic.String.Build("{0}%",V.Local.sDiscount,V.Local.sDiscount)</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_Discount.Text(V.Local.sDiscount)		</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_Market.Text(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).Market!FieldValTrim)		</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_Territory.Text(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).Territory!FieldValTrim)	</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_IntRegion.Text(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).Internal_Region!FieldValTrim)		</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_Region.Text(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).Region!FieldValTrim)	</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_SalesRep.Text(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).Field_Sales_Rep!FieldValTrim)	</string>
+        <string>			Gui.SS_Branch_Maint_Form.chk_NAcct.Value(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).National_Account!FieldVal)</string>
+        <string>			Gui.SS_Branch_Maint_Form.chk_Dropped.Value(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).Dropped!FieldVal)	</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_SalesForcast.Text(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).Sales_Forecast_CY!FieldValFloat)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			Gui.SS_Branch_Maint_Form.txtBranchName.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_Add1Branch.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_Add2Branch.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_CityBranch.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_StateBranch.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_ZipBranch.Text("")			</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_CountryBranch.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_ChannelType.Text("")		</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_Loc.Text("")		</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_ClassCode.Text("")	</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_LineAcess.Text("")		</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_Add1Branch.Text("")	</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_Market.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_Territory.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_IntRegion.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_Region.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_SalesRep.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.chk_NAcct.Value(0)</string>
+        <string>			Gui.SS_Branch_Maint_Form.chk_Dropped.Value(0)</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_SalesForcast.Text("")</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		Gui.SS_Branch_Maint_Form.chk_CopyCustAddress.Value(0)</string>
+        <string />
+        <string>		F.Data.DataView.Close("BranchLine","BranchTemp")</string>
+        <string>F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string>''making sure customer number is &lt;= 6 char</string>
+        <string>'F.Intrinsic.Control.If(V.Local.sText.Length,&lt;=,9)</string>
+        <string>'	gui.SS_Branch_Maint_Form.cmd_CustSave.Enabled(True)</string>
+        <string>'	'closing customer datatable if open and creating new datatable</string>
+        <string>'	F.Intrinsic.Control.If(V.DataTable.Customer.Exists,=,True)</string>
+        <string>'		F.Data.DataTable.Close("Customer")</string>
+        <string>'	F.Intrinsic.Control.EndIf</string>
+        <string>'</string>
+        <string>'	'check if branchline datatable is open if so close it</string>
+        <string>'	F.Intrinsic.Control.If(V.DataTable.BranchLine.Exists,=,True)</string>
+        <string>'		F.Data.DataTable.Close("BranchLine")</string>
+        <string>'	F.Intrinsic.Control.EndIf</string>
+        <string>'</string>
+        <string>'	'splitting branch on - to see if branch was created from a customer</string>
+        <string>'	F.Intrinsic.String.Split(V.Local.sText,"-",V.Local.sText)</string>
+        <string>'	F.Intrinsic.Control.If(V.Local.sText.UBound,&gt;,0)</string>
+        <string>'		F.Intrinsic.String.Build("Select Customer, Name_Customer, Address1, Address2, City, State, Zip, Country From V_Customer_Master Where Customer = '{0}'",V.Local.sText(0),V.Local.sSql)</string>
+        <string>'		F.Data.DataTable.CreateFromSQL("Customer","con",V.Local.sSql,True)</string>
+        <string>'	F.Intrinsic.Control.EndIf</string>
+        <string>'</string>
+        <string>'	F.Intrinsic.Control.CallSub(build_table)</string>
+        <string>'</string>
+        <string>'	F.Intrinsic.Control.If(V.DataTable.BranchHead.RowCount--,&lt;&gt;,-1)</string>
+        <string>'		'populating branch head from datatable</string>
+        <string>'		gui.SS_Branch_Maint_Form.txt_Add1Branch.Text(V.DataTable.BranchHead(0).Address1!FieldValTrim)</string>
+        <string>'		gui.SS_Branch_Maint_Form.txt_Add2Branch.Text(V.DataTable.BranchHead(0).Address2!FieldValTrim)</string>
+        <string>'		gui.SS_Branch_Maint_Form.txt_CityBranch.Text(V.DataTable.BranchHead(0).City!FieldValTrim)</string>
+        <string>'		gui.SS_Branch_Maint_Form.txt_CountryBranch.Text(V.DataTable.BranchHead(0).Country!FieldValTrim)</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txtBranchName.Text(V.DataTable.BranchHead(0).Branch_Name!FieldValTrim)</string>
+        <string>'		gui.SS_Branch_Maint_Form.txt_StateBranch.Text(V.DataTable.BranchHead(0).State!FieldValTrim)</string>
+        <string>'		gui.SS_Branch_Maint_Form.txt_ZipBranch.Text(V.DataTable.BranchHead(0).Zip!FieldValTrim)</string>
+        <string>'	F.Intrinsic.Control.Else</string>
+        <string>'		gui.SS_Branch_Maint_Form.txt_Add1Branch.Text("")</string>
+        <string>'		gui.SS_Branch_Maint_Form.txt_Add2Branch.Text("")</string>
+        <string>'		gui.SS_Branch_Maint_Form.txt_CityBranch.Text("")</string>
+        <string>'		gui.SS_Branch_Maint_Form.txt_CountryBranch.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txtBranchName.Text("")</string>
+        <string>'		gui.SS_Branch_Maint_Form.txt_StateBranch.Text("")</string>
+        <string>'		gui.SS_Branch_Maint_Form.txt_ZipBranch.Text("")</string>
+        <string>'	F.Intrinsic.Control.EndIf</string>
+        <string>'</string>
+        <string>'F.Intrinsic.Control.Else</string>
+        <string>'	F.Intrinsic.UI.Msgbox("Branch Number Must be 9 char or less.")</string>
+        <string>'	Gui.SS_Branch_Maint_Form.txt_Branch.SetFocus</string>
+        <string>'	Gui.SS_Branch_Maint_Form.txt_Branch.SelectAll</string>
+        <string>'F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("txt_Branch_LostFocus_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.txt_Branch_LostFocus.End</string>
+        <string />
+        <string>Program.Sub.cmd_Cust_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmd_Cust_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sRet.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.UI.Browser(205,"",V.Local.sRet)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.Local.sRet,&lt;&gt;,"***CANCEL***")</string>
+        <string>	Gui.SS_Branch_Maint_Form.cmd_BranchSave.Enabled(True)</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sRet,"*!*",V.Local.sRet)</string>
+        <string>	Gui.SS_Branch_Maint_Form.txt_Cust.Text(V.Local.sRet.Trim)</string>
+        <string />
+        <string>	V.Local.sRet.Set(V.Screen.SS_Branch_Maint_Form!txt_Cust.Text)</string>
+        <string>	Gui.SS_Branch_Maint_Form.txt_Cust.Text(V.Local.sRet.UCase)</string>
+        <string>	F.Intrinsic.String.Build("Select Customer, Name_Customer, Address1, Address2, City, State, Zip, Country From V_Customer_Master Where Customer = '{0}'",V.Local.sRet.UCase,V.Local.sSql)</string>
+        <string>	F.Data.DataTable.CreateFromSQL("CustTemp","con",V.Local.sSql,True)</string>
+        <string>	Gui.SS_Branch_Maint_Form.txt_CustName.Text(V.DataTable.CustTemp(V.DataTable.CustTemp.RowCount--).Name_Customer!FieldValTrim)</string>
+        <string>	Gui.SS_Branch_Maint_Form.txt_Add1Cust.Text(V.DataTable.CustTemp(V.DataTable.CustTemp.RowCount--).Address1!FieldValTrim)</string>
+        <string>	Gui.SS_Branch_Maint_Form.txt_Add2Cust.Text(V.DataTable.CustTemp(V.DataTable.CustTemp.RowCount--).Address2!FieldValTrim)</string>
+        <string>	Gui.SS_Branch_Maint_Form.txt_CityCust.Text(V.DataTable.CustTemp(V.DataTable.CustTemp.RowCount--).City!FieldValTrim)</string>
+        <string>	Gui.SS_Branch_Maint_Form.txt_CountryCust.Text(V.DataTable.CustTemp(V.DataTable.CustTemp.RowCount--).Country!FieldValTrim)</string>
+        <string>	Gui.SS_Branch_Maint_Form.txt_StateCust.Text(V.DataTable.CustTemp(V.DataTable.CustTemp.RowCount--).State!FieldValTrim)</string>
+        <string>	Gui.SS_Branch_Maint_Form.txt_ZipCust.Text(V.DataTable.CustTemp(V.DataTable.CustTemp.RowCount--).Zip!FieldValTrim)</string>
+        <string />
+        <string>	F.Data.DataTable.Close("CustTemp")</string>
+        <string />
+        <string>	F.Intrinsic.Control.CallSub(build_table)</string>
+        <string />
+        <string>	Gui.SS_Branch_Maint_Form.cmd_CustSave.Enabled(True)</string>
+        <string />
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmd_Cust_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmd_Cust_Click.End</string>
+        <string />
+        <string>Program.Sub.Build_Table.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Build_Table_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.i.Declare(Long)</string>
+        <string>V.Local.sText.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.Control.BlockEvents</string>
+        <string />
+        <string>V.Local.sText.Set(V.Screen.SS_Branch_Maint_Form!txt_Cust.Text)</string>
+        <string />
+        <string>'creating datatable for saveing branch header info</string>
+        <string>F.Intrinsic.String.Build("Select * From GCG_4353_Branch_Head Where Customer = '{0}'",V.Local.sText.UCase,V.Local.sSql)</string>
+        <string />
+        <string>'closing Branch datatable if open and creating new datatable</string>
+        <string>F.Intrinsic.Control.If(V.DataTable.BranchHead.Exists,=,True)</string>
+        <string>	F.Data.DataTable.Close("BranchHead")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Data.DataTable.CreateFromSQL("BranchHead","con",V.Local.sSql,True)</string>
+        <string />
+        <string>'creating datatable for saving branch line info</string>
+        <string>F.Intrinsic.String.Build("Select * From GCG_4353_Branch_Line Where Customer = '{0}' Order by Branch",V.Local.sText.UCase,V.Local.sSql)</string>
+        <string />
+        <string>'closing Branch datatable if open and creating new datatable</string>
+        <string>F.Intrinsic.Control.If(V.DataTable.BranchLine.Exists,=,True)</string>
+        <string>	F.Data.DataTable.Close("BranchLine")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Data.DataTable.CreateFromSQL("BranchLine","con",V.Local.sSql,True)</string>
+        <string />
+        <string>Gui.SS_Branch_Maint_Form.GsGridControl_Branch.AddGridviewFromDatatable("BranchLine","BranchLine")</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGridControl_Branch.SetGridviewProperty("BranchLine","Editable",False)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGridControl_Branch.SetGridviewProperty("BranchLine","readonly",True)</string>
+        <string>Gui.SS_Branch_Maint_Form.GsGridControl_Branch.SetColumnProperty("BranchLine","Customer","Visible",False)</string>
+        <string />
+        <string>F.Intrinsic.Control.For(V.Local.i,0,V.DataTable.BranchLine.RowCount--,1)</string>
+        <string>	Gui.SS_Branch_Maint_Form.GsGridControl_Branch.SetCellDisplayFormat("BranchLine",V.Local.i,13,"CustomNumeric","P")</string>
+        <string>F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string />
+        <string>Gui.SS_Branch_Maint_Form.GsGridControl_Branch.MainView("BranchLine")</string>
+        <string />
+        <string>F.Intrinsic.Control.UnBlockEvents</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Build_Table_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Build_Table.End</string>
+        <string />
+        <string>Program.Sub.cmd_Branch_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmd_Branch_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sRet.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.sBranch.Declare(String)</string>
+        <string>V.Local.iRet.Declare(Long)</string>
+        <string>V.Local.sTitles.Declare(String)</string>
+        <string>V.Local.sWidths.Declare(String)</string>
+        <string>V.Local.sFilter.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.Screen.SS_Branch_Maint_Form!txt_Add1Cust.Text,=,"")</string>
+        <string>	F.Intrinsic.UI.Msgbox("Need to select a Customer before Creating/Selecting a Branch","Warning")</string>
+        <string>	F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.UI.Msgbox("Creating a new Branch?","Branch Selection",4,V.Local.iRet)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.Local.iRet,=,6)</string>
+        <string>	F.Intrinsic.UI.Browser(205,"",V.Local.sRet)</string>
+        <string />
+        <string>	F.Intrinsic.Control.If(V.Local.sRet,&lt;&gt;,"***CANCEL***")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Branch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txtBranchName.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_SalesForcast.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_ChannelType.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_ClassCode.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_Discount.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_IntRegion.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_LineAcess.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_Loc.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_Market.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_SalesRep.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Add1Branch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Add2Branch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_CityBranch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_CountryBranch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_StateBranch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_ZipBranch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.chk_Dropped.Value(0)</string>
+        <string>		Gui.SS_Branch_Maint_Form.chk_NAcct.Value(0)</string>
+        <string>		Gui.SS_Branch_Maint_Form.chk_CopyCustAddress.Value(0)</string>
+        <string />
+        <string>		V.Global.iRowIndex.Set(-1)</string>
+        <string>		gui.SS_Branch_Maint_Form.cmd_CustSave.Enabled(True)</string>
+        <string>		F.Intrinsic.String.Split(V.Local.sRet,"*!*",V.Local.sRet)</string>
+        <string>		'closing customer datatable if open and creating new datatable</string>
+        <string>		F.Intrinsic.Control.If(V.DataTable.Customer.Exists,=,True)</string>
+        <string>			F.Data.DataTable.Close("Customer")</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		'check if branchline datatable is open if so close it</string>
+        <string>		F.Intrinsic.Control.If(V.DataTable.BranchLine.Exists,=,True)</string>
+        <string>			F.Data.DataTable.Close("BranchLine")</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Intrinsic.String.Build("Select Customer, Name_Customer, Address1, Address2, City, State, Zip, Country From V_Customer_Master Where Customer = '{0}'",V.Local.sRet.Trim,V.Local.sSql)</string>
+        <string>		F.Data.DataTable.CreateFromSQL("Customer","con",V.Local.sSql,True)</string>
+        <string />
+        <string>		F.Intrinsic.String.Build("Select Top 1 Branch From GCG_4353_Branch_Line Where Branch like '{0}%' Order by Branch Desc",V.Local.sRet(0),V.Local.sSql)</string>
+        <string>		F.ODBC.Connection!con.OpenLocalRecordsetRO("rst",V.Local.sSql)</string>
+        <string>		F.Intrinsic.Control.If(V.ODBC.con!rst.EOF,=,False)</string>
+        <string>			F.Intrinsic.String.Split(V.ODBC.con!rst.FieldValTrim!Branch,"-",V.Local.sBranch)</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.sBranch(1).Long,1,V.Local.sBranch(1).Long)</string>
+        <string>			F.Intrinsic.String.Build("{0}-{1}",V.Local.sBranch(0).Trim,V.Local.sBranch(1),V.Local.sRet(0))</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_Branch.Text(V.Local.sRet(0))</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			F.Intrinsic.String.Build("{0}-1",V.Local.sRet(0).Trim,V.Local.sRet(0))</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_Branch.Text(V.Local.sRet(0))</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		Gui.SS_Branch_Maint_Form.txtBranchName.Text(V.DataTable.Customer(0).Name_Customer!FieldValTrim)</string>
+        <string />
+        <string>		F.Intrinsic.Control.CallSub(build_table)</string>
+        <string />
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.String.Build("Select Branch, Branch_Name, B_Address1, B_Address2, B_City, B_State, B_Zip, B_Country from GCG_4353_Branch_Line Where Customer = '{0}' order by Branch asc",V.Screen.SS_Branch_Maint_Form!txt_Cust.Text,V.Local.sSql)</string>
+        <string>	V.Local.sTitles.Set("Branch*!*Branch Name!*!Address 1*!*Address 2*!*City*!*State*!*Zip*!*Country")</string>
+        <string>	V.Local.sWidths.Set("2000*!*5000*!*5000*!*5000*!*2000*!*1000*!*500*!*500*!*500")</string>
+        <string />
+        <string>	F.Intrinsic.String.Split(V.Local.sTitles,"*!*",V.Local.sTitles)</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sWidths,"*!*",V.Local.sWidths)</string>
+        <string />
+        <string>	'browser list is parsed for the type-ahead substring as it is being typed</string>
+        <string>	F.Intrinsic.UI.SetBrowserHotTypeAhead(True)</string>
+        <string />
+        <string>	'Opening browser for beginning description</string>
+        <string>	F.Intrinsic.UI.Browser("Select Branch","con",V.Local.sSql,V.Local.sTitles,V.Local.sWidths,7000,8000,V.Local.sRet)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.sRet,&lt;&gt;,"***CANCEL***")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Branch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txtBranchName.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_SalesForcast.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_ChannelType.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_ClassCode.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_Discount.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_IntRegion.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_LineAcess.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_Loc.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_Market.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_SalesRep.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Add1Branch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Add2Branch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_CityBranch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_CountryBranch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_StateBranch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_ZipBranch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.chk_Dropped.Value(0)</string>
+        <string>		Gui.SS_Branch_Maint_Form.chk_NAcct.Value(0)</string>
+        <string>		Gui.SS_Branch_Maint_Form.chk_CopyCustAddress.Value(0)</string>
+        <string />
+        <string>		F.Intrinsic.String.Split(V.Local.sRet,"*!*",V.Local.sRet)</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Branch.Text(V.Local.sRet.Trim)</string>
+        <string>		'populating branch head from datatable</string>
+        <string>		gui.SS_Branch_Maint_Form.txt_Add1Branch.Text(V.Local.sRet(2).Trim)</string>
+        <string>		gui.SS_Branch_Maint_Form.txt_Add2Branch.Text(V.Local.sRet(3).Trim)</string>
+        <string>		gui.SS_Branch_Maint_Form.txt_CityBranch.Text(V.Local.sRet(4).Trim)</string>
+        <string>		gui.SS_Branch_Maint_Form.txt_CountryBranch.Text(V.Local.sRet(7).Trim)</string>
+        <string>		Gui.SS_Branch_Maint_Form.txtBranchName.Text(V.Local.sRet(1).Trim)</string>
+        <string>		gui.SS_Branch_Maint_Form.txt_StateBranch.Text(V.Local.sRet(5).Trim)</string>
+        <string>		gui.SS_Branch_Maint_Form.txt_ZipBranch.Text(V.Local.sRet(6).Trim)</string>
+        <string />
+        <string>		F.Intrinsic.Control.CallSub(build_table)</string>
+        <string />
+        <string>		'create dataview for selected branch</string>
+        <string>		F.Intrinsic.String.Build("Branch = '{0}'",V.Local.sRet.Trim,V.Local.sFilter)</string>
+        <string>		F.Data.DataView.Create("BranchLine","BranchTemp",22,V.Local.sFilter,"Branch")</string>
+        <string />
+        <string>		'getting datatable rowindex for branch selected</string>
+        <string>		V.Global.iRowIndex.Set(V.DataView.BranchLine!BranchTemp(V.DataView.BranchLine!BranchTemp.RowCount--).DataTableIndex)</string>
+        <string />
+        <string>		'closing temp dataview</string>
+        <string>		F.Data.DataView.Close("BranchLine","BranchTemp")</string>
+        <string />
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmd_Branch_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmd_Branch_Click.End</string>
+        <string />
+        <string>Program.Sub.cmd_BranchAdd_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmd_BranchAdd_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sFilter.Declare(String)</string>
+        <string>V.Local.iDataTableIndex.Declare(Long)</string>
+        <string>V.Local.sText.Declare(String)</string>
+        <string>V.Local.bNAcct.Declare(Boolean)</string>
+        <string>V.Local.bDropped.Declare(Boolean)</string>
+        <string />
+        <string>F.Intrinsic.Control.BlockEvents</string>
+        <string />
+        <string>V.Local.sText.Set(V.Screen.SS_Branch_Maint_Form!txt_Branch.Text)</string>
+        <string>F.Intrinsic.Control.If(V.Local.sText.Length,=,0)</string>
+        <string>	F.Intrinsic.UI.Msgbox("No Branch has been selected")</string>
+        <string>	Gui.SS_Branch_Maint_Form.txt_Branch.SetFocus</string>
+        <string>	F.Intrinsic.Control.ExitSub</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'checking that a customer as been selected</string>
+        <string>	V.Local.sText.Set(V.Screen.SS_Branch_Maint_Form!txt_Cust.Text)</string>
+        <string>	F.Intrinsic.Control.If(V.Local.sText.Length,=,0)</string>
+        <string>		F.Intrinsic.UI.Msgbox("No Customer has been selected")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Cust.SetFocus</string>
+        <string>		F.Intrinsic.Control.ExitSub</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		V.Local.sText.RedimPreserve(0,21)</string>
+        <string>		F.Intrinsic.String.Build("Customer = '{0}'",V.Screen.SS_Branch_Maint_Form!txt_Cust.Text,V.Local.sFilter)</string>
+        <string>		F.Data.DataView.Create("BranchHead","BranchHead",22,V.Local.sFilter,"Customer")</string>
+        <string>		F.Intrinsic.Control.If(V.DataView.BranchHead!BranchHead.RowCount--,=,-1)</string>
+        <string>			F.Intrinsic.UI.Msgbox("Customer Record has not been saved.")</string>
+        <string>			gui.SS_Branch_Maint_Form.cmd_CustSave.SetFocus</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			V.Local.sText(0).Set(V.Screen.SS_Branch_Maint_Form!txt_Branch.Text)</string>
+        <string>			V.Local.sText(1).Set(V.Screen.SS_Branch_Maint_Form!txt_Cust.Text)</string>
+        <string>			V.Local.sText(2).Set(V.Screen.SS_Branch_Maint_Form!txtBranchName.Text)</string>
+        <string>			V.Local.sText(3).Set(V.Screen.SS_Branch_Maint_Form!txt_Add1Branch.Text)</string>
+        <string>			V.Local.sText(4).Set(V.Screen.SS_Branch_Maint_Form!txt_Add2Branch.Text)</string>
+        <string>			V.Local.sText(5).Set(V.Screen.SS_Branch_Maint_Form!txt_CityBranch.Text)</string>
+        <string>			V.Local.sText(6).Set(V.Screen.SS_Branch_Maint_Form!txt_StateBranch.Text)</string>
+        <string>			V.Local.sText(7).Set(V.Screen.SS_Branch_Maint_Form!txt_ZipBranch.Text)</string>
+        <string>			V.Local.sText(8).Set(V.Screen.SS_Branch_Maint_Form!txt_CountryBranch.Text)</string>
+        <string>			V.Local.sText(9).Set(V.Screen.SS_Branch_Maint_Form!ddl_ChannelType.Text)</string>
+        <string>			V.Local.sText(10).Set(V.Screen.SS_Branch_Maint_Form!ddl_Loc.Text)</string>
+        <string>			V.Local.sText(11).Set(V.Screen.SS_Branch_Maint_Form!ddl_ClassCode.Text)</string>
+        <string>			V.Local.sText(12).Set(V.Screen.SS_Branch_Maint_Form!ddl_LineAcess.Text)</string>
+        <string>			V.Local.sText(13).Set(V.Screen.SS_Branch_Maint_Form!ddl_Discount.Text)</string>
+        <string>			F.Intrinsic.String.Replace(V.Local.sText(13),"%"," ",V.Local.sText(13))</string>
+        <string>			F.Intrinsic.Math.Mult(V.Local.sText(13).Long,.01,V.Local.sText(13).Float)</string>
+        <string>			V.Local.sText(14).Set(V.Screen.SS_Branch_Maint_Form!ddl_Market.Text)</string>
+        <string>			V.Local.sText(15).Set(V.Screen.SS_Branch_Maint_Form!ddl_Territory.Text)</string>
+        <string>			V.Local.sText(16).Set(V.Screen.SS_Branch_Maint_Form!ddl_IntRegion.Text)</string>
+        <string>			V.Local.sText(17).Set(V.Screen.SS_Branch_Maint_Form!ddl_Region.Text)</string>
+        <string>			V.Local.sText(18).Set(V.Screen.SS_Branch_Maint_Form!ddl_SalesRep.Text)</string>
+        <string>			V.Local.sText(19).Set(V.Screen.SS_Branch_Maint_Form!txt_SalesForcast.Text)</string>
+        <string>			F.Intrinsic.Control.If(V.Screen.SS_Branch_Maint_Form!chk_NAcct.Value,=,1)</string>
+        <string>				V.Local.bNAcct.Set(True)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				V.Local.bNAcct.Set(False)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.If(V.Screen.SS_Branch_Maint_Form!chk_Dropped.Value,=,1)</string>
+        <string>				V.Local.bDropped.Set(True)</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				V.Local.bDropped.Set(False)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>			F.Intrinsic.Control.If(V.Global.iRowIndex,&gt;,-1)</string>
+        <string>				F.Data.DataTable.SetValue("BranchLine",V.Global.iRowIndex,"Branch",V.Local.sText(0),"Branch_Name",V.Local.sText(2),"B_Address1",V.Local.sText(3),"B_Address2",V.Local.sText(4),"B_City",V.Local.sText(5),"B_State",V.Local.sText(6),"B_Zip",V.Local.sText(7),"B_Country",V.Local.sText(8),"Channel_Type",V.Local.sText(9),"Locale",V.Local.sText(10),"Class_Code",V.Local.sText(11),"Line_Access",V.Local.sText(12),"Discount",V.Local.sText(13).Float,"Market",V.Local.sText(14),"Territory",V.Local.sText(15),"Internal_Region",V.Local.sText(16),"Region",V.Local.sText(17),"Field_Sales_Rep",V.Local.sText(18),"National_Account",V.Local.bNAcct,"Dropped",V.Local.bDropped,"Sales_Forecast_CY",V.Local.sText(19).Float)</string>
+        <string>				Gui.SS_Branch_Maint_Form.GsGridControl_Branch.SetCellDisplayFormat("BranchLine",V.Local.iDataTableIndex,7,"CustomNumeric","p")</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				F.Intrinsic.String.Build("Branch = '{0}'",V.Screen.SS_Branch_Maint_Form!txt_Branch.Text,V.Local.sFilter)</string>
+        <string>				F.Data.DataView.Create("BranchLine","BranchLine",22,V.Local.sFilter,"Customer")</string>
+        <string>				F.Intrinsic.Control.If(V.DataView.BranchLine!BranchLine.Rowcount--,&gt;,-1)</string>
+        <string>					V.Local.iDataTableIndex.Set(V.DataView.BranchLine!BranchLine(0).DatatableIndex)</string>
+        <string>					F.Data.DataTable.SetValue("BranchLine",V.Local.iDataTableIndex,"Branch",V.Local.sText(0),"Branch_Name",V.Local.sText(2),"B_Address1",V.Local.sText(3),"B_Address2",V.Local.sText(4),"B_City",V.Local.sText(5),"B_State",V.Local.sText(6),"B_Zip",V.Local.sText(7),"B_Country",V.Local.sText(8),"Channel_Type",V.Local.sText(9),"Locale",V.Local.sText(10),"Class_Code",V.Local.sText(11),"Line_Access",V.Local.sText(12),"Discount",V.Local.sText(13).Float,"Market",V.Local.sText(14),"Territory",V.Local.sText(15),"Internal_Region",V.Local.sText(16),"Region",V.Local.sText(17),"Field_Sales_Rep",V.Local.sText(18),"National_Account",V.Local.bNAcct,"Dropped",V.Local.bDropped,"Sales_Forecast_CY",V.Local.sText(19).Float)</string>
+        <string>				F.Intrinsic.Control.Else</string>
+        <string>					F.Data.DataTable.AddRow("BranchLine","Customer",V.Local.sText(1),"Branch",V.Local.sText(0),"Branch_Name",V.Local.sText(2),"B_Address1",V.Local.sText(3),"B_Address2",V.Local.sText(4),"B_City",V.Local.sText(5),"B_State",V.Local.sText(6),"B_Zip",V.Local.sText(7),"B_Country",V.Local.sText(8),"Channel_Type",V.Local.sText(9),"Locale",V.Local.sText(10),"Class_Code",V.Local.sText(11),"Line_Access",V.Local.sText(12),"Discount",V.Local.sText(13).Float,"Market",V.Local.sText(14),"Territory",V.Local.sText(15),"Internal_Region",V.Local.sText(16),"Region",V.Local.sText(17),"Field_Sales_Rep",V.Local.sText(18),"National_Account",V.Local.bNAcct,"Dropped",V.Local.bDropped,"Sales_Forecast_CY",V.Local.sText(19).Float)</string>
+        <string>					V.Local.iDataTableIndex.Set(V.DataTable.BranchLine.RowCount--)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>				F.Data.DataView.Close("BranchLine","BranchLine")</string>
+        <string />
+        <string>				Gui.SS_Branch_Maint_Form.GsGridControl_Branch.SetCellDisplayFormat("BranchLine",V.Local.iDataTableIndex,7,"CustomNumeric","p")</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>			Gui.SS_Branch_Maint_Form.txt_Branch.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txtBranchName.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_SalesForcast.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_ChannelType.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_ClassCode.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_Discount.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_IntRegion.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_LineAcess.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_Loc.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_Market.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.ddl_SalesRep.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_Add1Branch.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_Add2Branch.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_CityBranch.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_CountryBranch.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_StateBranch.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.txt_ZipBranch.Text("")</string>
+        <string>			Gui.SS_Branch_Maint_Form.chk_Dropped.Value(0)</string>
+        <string>			Gui.SS_Branch_Maint_Form.chk_NAcct.Value(0)</string>
+        <string>			Gui.SS_Branch_Maint_Form.chk_CopyCustAddress.Value(0)</string>
+        <string />
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Data.DataView.Close("BranchHead","BranchHead")</string>
+        <string />
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>'Setting Global RowIndex varialbe back to -1</string>
+        <string>V.Global.iRowIndex.Set(-1)</string>
+        <string />
+        <string>F.Intrinsic.Control.UnBlockEvents</string>
+        <string />
+        <string>Gui.SS_Branch_Maint_Form.cmd_BranchSave.Enabled(True)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmd_BranchAdd_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmd_BranchAdd_Click.End</string>
+        <string />
+        <string>Program.Sub.cmdPickListAdd_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdPickListAdd_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.iRecID.Declare(Long)</string>
+        <string>V.Local.sFilter.Declare(String)</string>
+        <string />
+        <string>Gui.SS_Branch_Maint_Form.cmd_PickListSave.Enabled(True)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.DataTable.[V.Global.sSelection].RowCount--,=,-1)</string>
+        <string>	V.Local.iRecID.Set(1)</string>
+        <string>	F.Data.DataTable.AddRow(V.Global.sSelection,"REC_ID",V.Local.iRecID,"Value",V.Screen.SS_Branch_Maint_Form!txtPickList.Text)</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	V.Local.iRecID.Set(V.DataTable.[V.Global.sSelection](V.DataTable.[V.Global.sSelection].RowCount--).Rec_ID!FieldValLong)</string>
+        <string>	F.Intrinsic.Math.Add(V.Local.iRecID,1,V.Local.iRecID)</string>
+        <string>	F.Data.DataTable.AddRow(V.Global.sSelection,"REC_ID",V.Local.iRecID,"Value",V.Screen.SS_Branch_Maint_Form!txtPickList.Text)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>Gui.SS_Branch_Maint_Form.txtPickList.Text("")</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdPickListAdd_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmdPickListAdd_Click.End</string>
+        <string />
+        <string>Program.Sub.ddl_PickListSelection_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("ddl_PickListSelection_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>V.Global.sSelection.Set(V.Screen.SS_Branch_Maint_Form!ddl_PickListSelection.Text)</string>
+        <string />
+        <string>F.Intrinsic.String.Replace(V.Global.sSelection.Trim," ","_",V.Global.sSelection)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("ddl_PickListSelection_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.ddl_PickListSelection_Click.End</string>
+        <string />
+        <string>Program.Sub.cmd_PickListSave_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmd_PickListSave_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>Gui.SS_Branch_Maint_Form.cmd_PickListSave.Enabled(False)</string>
+        <string />
+        <string>F.Data.DataTable.SaveToDB("Market","con","GCG_4353_Market","Rec_ID")</string>
+        <string />
+        <string>F.Data.DataTable.SaveToDB("Internal_Region","con","GCG_4353_IntRegion","Rec_ID")</string>
+        <string />
+        <string>F.Data.DataTable.SaveToDB("Region","con","GCG_4353_Region","Rec_ID")</string>
+        <string />
+        <string>F.Data.DataTable.SaveToDB("Field_Sales_Rep","con","GCG_4353_SalesRep","Rec_ID")</string>
+        <string />
+        <string>F.Data.DataTable.SaveToDB("Territory","con","GCG_4353_Territory","Rec_ID")</string>
+        <string />
+        <string>F.Data.DataTable.SaveToDB("Class_Code","con","GCG_4353_ClassCode","Rec_ID")</string>
+        <string />
+        <string>F.Data.DataTable.SaveToDB("Channel","con","GCG_4353_Channel","Rec_ID")</string>
+        <string />
+        <string>F.Data.DataTable.SaveToDB("Location","con","GCG_4353_Location","Rec_ID")</string>
+        <string />
+        <string>F.Data.DataTable.SaveToDB("Line_Access","con","GCG_4353_LineAccess","Rec_ID")</string>
+        <string />
+        <string>F.Data.DataTable.SaveToDB("Discount","con","GCG_4353_Discount","Rec_ID")</string>
+        <string />
+        <string>F.Intrinsic.Control.CallSub(populate_dropdownlists)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmd_PickListSave_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmd_PickListSave_Click.End</string>
+        <string />
+        <string>Program.Sub.chk_CopyCustAddress_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("chk_CopyCustAddress_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.Screen.SS_Branch_Maint_Form!chk_CopyCustAddress.Value,=,1)</string>
+        <string>	F.Intrinsic.Control.If(V.Screen.SS_Branch_Maint_Form!txt_Branch.Text,=," ")</string>
+        <string>		F.Intrinsic.UI.Msgbox("No Branch has been Selected")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Branch.SetFocus</string>
+        <string>		Gui.SS_Branch_Maint_Form.chk_CopyCustAddress.Value(0)</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		F.Intrinsic.Control.If(V.DataTable.Customer.Exists,=,True)</string>
+        <string>			gui.SS_Branch_Maint_Form.txt_Add1Branch.Text(V.DataTable.Customer(0).Address1!FieldVal)</string>
+        <string>			gui.SS_Branch_Maint_Form.txt_Add2Branch.Text(V.DataTable.Customer(0).Address2!FieldVal)</string>
+        <string>			gui.SS_Branch_Maint_Form.txt_CityBranch.Text(V.DataTable.Customer(0).City!FieldVal)</string>
+        <string>			gui.SS_Branch_Maint_Form.txt_CountryBranch.Text(V.DataTable.Customer(0).Country!FieldVal)</string>
+        <string>			gui.SS_Branch_Maint_Form.txt_StateBranch.Text(V.DataTable.Customer(0).State!FieldVal)</string>
+        <string>			gui.SS_Branch_Maint_Form.txt_ZipBranch.Text(V.DataTable.Customer(0).Zip!FieldVal)</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>			gui.SS_Branch_Maint_Form.txt_Add1Branch.Text("")</string>
+        <string>			gui.SS_Branch_Maint_Form.txt_Add2Branch.Text("")</string>
+        <string>			gui.SS_Branch_Maint_Form.txt_CityBranch.Text("")</string>
+        <string>			gui.SS_Branch_Maint_Form.txt_CountryBranch.Text("")</string>
+        <string>			gui.SS_Branch_Maint_Form.txt_StateBranch.Text("")</string>
+        <string>			gui.SS_Branch_Maint_Form.txt_ZipBranch.Text("")</string>
+        <string>			F.Intrinsic.UI.Msgbox("This Branch was not created from a Customer")</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	gui.SS_Branch_Maint_Form.txt_Add1Branch.Text("")</string>
+        <string>	gui.SS_Branch_Maint_Form.txt_Add2Branch.Text("")</string>
+        <string>	gui.SS_Branch_Maint_Form.txt_CityBranch.Text("")</string>
+        <string>	gui.SS_Branch_Maint_Form.txt_CountryBranch.Text("")</string>
+        <string>	gui.SS_Branch_Maint_Form.txt_StateBranch.Text("")</string>
+        <string>	gui.SS_Branch_Maint_Form.txt_ZipBranch.Text("")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("chk_CopyCustAddress_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.chk_CopyCustAddress_Click.End</string>
+        <string />
+        <string>Program.Sub.Populate_DropdownLists.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Populate_DropdownLists_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string>V.Local.i.Declare(Long)</string>
+        <string>V.Local.sText.Declare(String)</string>
+        <string />
+        <string>Gui.SS_Branch_Maint_Form.ddl_ChannelType.ClearItems</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Loc.ClearItems</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_ClassCode.ClearItems</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_LineAcess.ClearItems</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Discount.ClearItems</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Market.ClearItems</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Territory.ClearItems</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Region.ClearItems</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_IntRegion.ClearItems</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_SalesRep.ClearItems</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_PickListSelection.ClearItems</string>
+        <string />
+        <string>'populating channel type</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_ChannelType.AddItem("")</string>
+        <string>V.Local.sSql.Set("Select Rec_ID, Value From GCG_4353_Channel Order by Rec_ID Asc")</string>
+        <string>F.Intrinsic.Control.If(V.DataTable.Channel.Exists,=,True)</string>
+        <string>	F.Data.DataTable.Close("Channel")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Data.DataTable.CreateFromSQL("Channel","con",V.Local.sSql,True)</string>
+        <string>'V.Local.sText.Set("*!*")</string>
+        <string>F.Intrinsic.Control.For(V.Local.i,0,V.DataTable.Channel.RowCount--,1)</string>
+        <string>	Gui.SS_Branch_Maint_Form.ddl_ChannelType.AddItem(V.DataTable.Channel(V.Local.i).Value!FieldValTrim)</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}*!*",V.Local.sText,V.DataTable.Channel(V.Local.i).Value!FieldValTrim,V.Local.sText)</string>
+        <string>F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Channel.AddGridviewFromDatatable("Channel","Channel")</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Channel.SetGridviewProperty("Channel","Editable",True)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Channel.SetGridviewProperty("Channel","readonly",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Channel.SetColumnProperty("Channel","Rec_ID","Visible",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Channel.SetColumnProperty("Channel","Value","ShowCaption",False)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Channel.MainView("Channel")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_ChannelType.AddItem("")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_ChannelType.AddItem("Integrator")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_ChannelType.AddItem("Independent Local Distributor")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_ChannelType.AddItem("Independent Regional Distributor")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_ChannelType.AddItem("National")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_ChannelType.AddItem("Catalog House")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_ChannelType.AddItem("Other")</string>
+        <string />
+        <string>'populating locale</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Loc.AddItem("")</string>
+        <string>V.Local.sSql.Set("Select Rec_ID, Value From GCG_4353_Location Order by Rec_ID Asc")</string>
+        <string>F.Intrinsic.Control.If(V.DataTable.Location.Exists,=,True)</string>
+        <string>	F.Data.DataTable.Close("Location")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Data.DataTable.CreateFromSQL("Location","con",V.Local.sSql,True)</string>
+        <string>'V.Local.sText.Set("*!*")</string>
+        <string>F.Intrinsic.Control.For(V.Local.i,0,V.DataTable.Location.RowCount--,1)</string>
+        <string>	Gui.SS_Branch_Maint_Form.ddl_Loc.AddItem(V.DataTable.Location(V.Local.i).Value!FieldValTrim)</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}*!*",V.Local.sText,V.DataTable.Location(V.Local.i).Value!FieldValTrim,V.Local.sText)</string>
+        <string>F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Location.AddGridviewFromDatatable("Location","Location")</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Location.SetGridviewProperty("Location","Editable",True)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Location.SetGridviewProperty("Location","readonly",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Location.SetColumnProperty("Location","Rec_ID","Visible",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Location.SetColumnProperty("Location","Value","ShowCaption",False)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Location.MainView("Location")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_Loc.AddItem("")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_Loc.AddItem("US")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_Loc.AddItem("Canadian")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_Loc.AddItem("Mexican")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_Loc.AddItem("International")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_Loc.AddItem("Other")</string>
+        <string />
+        <string>'populating Class code</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_ClassCode.AddItem("")</string>
+        <string>V.Local.sSql.Set("Select Rec_ID, Value From GCG_4353_ClassCode Order by Rec_ID Asc")</string>
+        <string>F.Intrinsic.Control.If(V.DataTable.Class_Code.Exists,=,True)</string>
+        <string>	F.Data.DataTable.Close("Class_Code")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Data.DataTable.CreateFromSQL("Class_Code","con",V.Local.sSql,True)</string>
+        <string>'V.Local.sText.Set("*!*")</string>
+        <string>F.Intrinsic.Control.For(V.Local.i,0,V.DataTable.Class_Code.RowCount--,1)</string>
+        <string>	Gui.SS_Branch_Maint_Form.ddl_ClassCode.AddItem(V.DataTable.Class_Code(V.Local.i).Value!FieldValTrim)</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}*!*",V.Local.sText,V.DataTable.Class_Code(V.Local.i).Value!FieldValTrim,V.Local.sText)</string>
+        <string>F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_ClassCode.AddGridviewFromDatatable("Class_Code","Class_Code")</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_ClassCode.SetGridviewProperty("Class_Code","Editable",True)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_ClassCode.SetGridviewProperty("Class_Code","readonly",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_ClassCode.SetColumnProperty("Class_Code","Rec_ID","Visible",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_ClassCode.SetColumnProperty("Class_Code","Value","ShowCaption",False)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_ClassCode.MainView("Class_Code")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_ClassCode.AddItem("")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_ClassCode.AddItem("A")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_ClassCode.AddItem("B")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_ClassCode.AddItem("C")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_ClassCode.AddItem("D")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_ClassCode.AddItem("International")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_ClassCode.AddItem("Vendor")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_ClassCode.AddItem("Other")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_ClassCode.AddItem("Dropped")</string>
+        <string />
+        <string>'populating Line Access</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_LineAcess.AddItem("")</string>
+        <string>V.Local.sSql.Set("Select Rec_ID, Value From GCG_4353_LineAccess Order by Rec_ID Asc")</string>
+        <string>F.Intrinsic.Control.If(V.DataTable.Line_Access.Exists,=,True)</string>
+        <string>	F.Data.DataTable.Close("Line_Access")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Data.DataTable.CreateFromSQL("Line_Access","con",V.Local.sSql,True)</string>
+        <string>'V.Local.sText.Set("*!*")</string>
+        <string>F.Intrinsic.Control.For(V.Local.i,0,V.DataTable.Line_Access.RowCount--,1)</string>
+        <string>	Gui.SS_Branch_Maint_Form.ddl_LineAcess.AddItem(V.DataTable.Line_Access(V.Local.i).Value!FieldValTrim)</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}*!*",V.Local.sText,V.DataTable.Line_Access(V.Local.i).Value!FieldValTrim,V.Local.sText)</string>
+        <string>F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_LineAcess.AddGridviewFromDatatable("Line_Access","Line_Access")</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_LineAcess.SetGridviewProperty("Line_Access","Editable",True)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_LineAcess.SetGridviewProperty("Line_Access","readonly",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_LineAcess.SetColumnProperty("Line_Access","Rec_ID","Visible",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_LineAcess.SetColumnProperty("Line_Access","Value","ShowCaption",False)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_LineAcess.MainView("Line_Access")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_LineAcess.AddItem("")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_LineAcess.AddItem("Full Line Access")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_LineAcess.AddItem("Limited Sales Agreement")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_LineAcess.AddItem("Agreement")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_LineAcess.AddItem("Site Specific")</string>
+        <string />
+        <string>'populating discount</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Discount.AddItem("")</string>
+        <string>V.Local.sSql.Set("Select Rec_ID, Value From GCG_4353_Discount Order by Rec_ID Asc")</string>
+        <string>F.Intrinsic.Control.If(V.DataTable.Discount.Exists,=,True)</string>
+        <string>	F.Data.DataTable.Close("Discount")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Data.DataTable.CreateFromSQL("Discount","con",V.Local.sSql,True)</string>
+        <string>'V.Local.sText.Set("*!*")</string>
+        <string>F.Intrinsic.Control.For(V.Local.i,0,V.DataTable.Discount.RowCount--,1)</string>
+        <string>	Gui.SS_Branch_Maint_Form.ddl_Discount.AddItem(V.DataTable.Discount(V.Local.i).Value!FieldValTrim)</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}*!*",V.Local.sText,V.DataTable.Discount(V.Local.i).Value!FieldValTrim,V.Local.sText)</string>
+        <string>F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Discount.AddGridviewFromDatatable("Discount","Discount")</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Discount.SetGridviewProperty("Discount","Editable",True)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Discount.SetGridviewProperty("Discount","readonly",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Discount.SetColumnProperty("Discount","Rec_ID","Visible",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Discount.SetColumnProperty("Discount","Value","ShowCaption",False)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Discount.MainView("Discount")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_Discount.AddItem("")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_Discount.AddItem("0%")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_Discount.AddItem("20%")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_Discount.AddItem("25%")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_Discount.AddItem("27%")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_Discount.AddItem("28%")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_Discount.AddItem("30%")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_Discount.AddItem("32%")</string>
+        <string>'Gui.SS_Branch_Maint_Form.ddl_Discount.AddItem("35%")</string>
+        <string />
+        <string>'populating Market</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Market.AddItem("")</string>
+        <string>V.Local.sSql.Set("Select Rec_ID, Value From GCG_4353_Market Order by Rec_ID Asc")</string>
+        <string>F.Intrinsic.Control.If(V.DataTable.Market.Exists,=,True)</string>
+        <string>	F.Data.DataTable.Close("Market")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Data.DataTable.CreateFromSQL("Market","con",V.Local.sSql,True)</string>
+        <string>'V.Local.sText.Set("*!*")</string>
+        <string>F.Intrinsic.Control.For(V.Local.i,0,V.DataTable.Market.RowCount--,1)</string>
+        <string>	Gui.SS_Branch_Maint_Form.ddl_Market.AddItem(V.DataTable.Market(V.Local.i).Value!FieldValTrim)</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}*!*",V.Local.sText,V.DataTable.Market(V.Local.i).Value!FieldValTrim,V.Local.sText)</string>
+        <string>F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string>'Gui.SS_Branch_Maint_Form.GsGridControl_Branch.ColumnEdit("BranchLine","Market","DropdownList",V.Local.sText)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Market.AddGridviewFromDatatable("Market","Market")</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Market.SetGridviewProperty("Market","Editable",True)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Market.SetGridviewProperty("Market","readonly",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Market.SetColumnProperty("Market","Rec_ID","Visible",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Market.SetColumnProperty("Market","Value","ShowCaption",False)</string>
+        <string />
+        <string>Gui.SS_Branch_Maint_Form.GsGrid_Market.MainView("Market")</string>
+        <string />
+        <string>'populating Territory</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Territory.AddItem("")</string>
+        <string>V.Local.sSql.Set("Select Rec_ID, Value From GCG_4353_Territory Order by Rec_ID Asc")</string>
+        <string>F.Intrinsic.Control.If(V.DataTable.Territory.Exists,=,True)</string>
+        <string>	F.Data.DataTable.Close("Territory")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Data.DataTable.CreateFromSQL("Territory","con",V.Local.sSql,True)</string>
+        <string>'V.Local.sText.Set(" *!*")</string>
+        <string>F.Intrinsic.Control.For(V.Local.i,0,V.DataTable.Territory.RowCount--,1)</string>
+        <string>	Gui.SS_Branch_Maint_Form.ddl_Territory.AddItem(V.DataTable.Territory(V.Local.i).Value!FieldValTrim)</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}*!*",V.Local.sText,V.DataTable.Territory(V.Local.i).Value!FieldValTrim,V.Local.sText)</string>
+        <string>F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string>'Gui.SS_Branch_Maint_Form.GsGridControl_Branch.ColumnEdit("BranchLine","Territory","DropdownList",V.Local.sText)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Territory.AddGridviewFromDatatable("Territory","Territory")</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Territory.SetGridviewProperty("Territory","Editable",True)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Territory.SetGridviewProperty("Territory","readonly",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Territory.SetColumnProperty("Territory","Rec_ID","Visible",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Territory.SetColumnProperty("Territory","Value","ShowCaption",False)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Territory.MainView("Territory")</string>
+        <string />
+        <string>'populating Region</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Region.AddItem("")</string>
+        <string>V.Local.sSql.Set("Select Rec_ID, Value From GCG_4353_Region Order by Rec_ID Asc")</string>
+        <string>F.Intrinsic.Control.If(V.DataTable.Region.Exists,=,True)</string>
+        <string>	F.Data.DataTable.Close("Region")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Data.DataTable.CreateFromSQL("Region","con",V.Local.sSql,True)</string>
+        <string>'V.Local.sText.Set(" *!*")</string>
+        <string>F.Intrinsic.Control.For(V.Local.i,0,V.DataTable.Region.RowCount--,1)</string>
+        <string>	Gui.SS_Branch_Maint_Form.ddl_Region.AddItem(V.DataTable.Region(V.Local.i).Value!FieldValTrim)</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}*!*",V.Local.sText,V.DataTable.Region(V.Local.i).Value!FieldValTrim,V.Local.sText)</string>
+        <string>F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string>'Gui.SS_Branch_Maint_Form.GsGridControl_Branch.ColumnEdit("BranchLine","Region","DropdownList",V.Local.sText)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Region.AddGridviewFromDatatable("Region","Region")</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Region.SetGridviewProperty("Region","Editable",True)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Region.SetGridviewProperty("Region","readonly",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Region.SetColumnProperty("Region","Rec_ID","Visible",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Region.SetColumnProperty("Region","Value","ShowCaption",False)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_Region.MainView("Region")</string>
+        <string />
+        <string>'populating Internal Region</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_IntRegion.AddItem("")</string>
+        <string>V.Local.sSql.Set("Select Rec_ID, Value From GCG_4353_IntRegion Order by Rec_ID Asc")</string>
+        <string>F.Intrinsic.Control.If(V.DataTable.Internal_Region.Exists,=,True)</string>
+        <string>	F.Data.DataTable.Close("Internal_Region")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Data.DataTable.CreateFromSQL("Internal_Region","con",V.Local.sSql,True)</string>
+        <string>'V.Local.sText.Set(" *!*")</string>
+        <string>F.Intrinsic.Control.For(V.Local.i,0,V.DataTable.Internal_Region.RowCount--,1)</string>
+        <string>	Gui.SS_Branch_Maint_Form.ddl_IntRegion.AddItem(V.DataTable.Internal_Region(V.Local.i).Value!FieldValTrim)</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}*!*",V.Local.sText,V.DataTable.Internal_Region(V.Local.i).Value!FieldValTrim,V.Local.sText)</string>
+        <string>F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string>'Gui.SS_Branch_Maint_Form.GsGridControl_Branch.ColumnEdit("BranchLine","Internal_Region","DropdownList",V.Local.sText)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_InternalRegion.AddGridviewFromDatatable("Internal_Region","Internal_Region")</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_InternalRegion.SetGridviewProperty("Internal_Region","Editable",True)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_InternalRegion.SetGridviewProperty("Internal_Region","readonly",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_InternalRegion.SetColumnProperty("Internal_Region","Rec_ID","Visible",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_InternalRegion.SetColumnProperty("Internal_Region","Value","ShowCaption",False)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_InternalRegion.MainView("Internal_Region")</string>
+        <string />
+        <string>'populating Field Sales Rep</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_SalesRep.AddItem("")</string>
+        <string>V.Local.sSql.Set("Select Rec_ID, Value From GCG_4353_SalesRep Order by Rec_ID Asc")</string>
+        <string>F.Intrinsic.Control.If(V.DataTable.Field_Sales_Rep.Exists,=,True)</string>
+        <string>	F.Data.DataTable.Close("Field_Sales_Rep")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Data.DataTable.CreateFromSQL("Field_Sales_Rep","con",V.Local.sSql,True)</string>
+        <string>'V.Local.sText.Set(" *!*")</string>
+        <string>F.Intrinsic.Control.For(V.Local.i,0,V.DataTable.Field_Sales_Rep.RowCount--,1)</string>
+        <string>	Gui.SS_Branch_Maint_Form.ddl_SalesRep.AddItem(V.DataTable.Field_Sales_Rep(V.Local.i).Value!FieldValTrim)</string>
+        <string>	F.Intrinsic.String.Build("{0}{1}*!*",V.Local.sText,V.DataTable.Field_Sales_Rep(V.Local.i).Value!FieldValTrim,V.Local.sText)</string>
+        <string>F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string>'Gui.SS_Branch_Maint_Form.GsGridControl_Branch.ColumnEdit("BranchLine","Field_Sales_Rep","DropdownList",V.Local.sText)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_FieldSalesReps.AddGridviewFromDatatable("Field_Sales_Rep","Field_Sales_Rep")</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_FieldSalesReps.SetGridviewProperty("Field_Sales_Rep","Editable",True)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_FieldSalesReps.SetGridviewProperty("Field_Sales_Rep","readonly",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_FieldSalesReps.SetColumnProperty("Field_Sales_Rep","Rec_ID","Visible",False)</string>
+        <string>gui.SS_Branch_Maint_Form.GsGrid_FieldSalesReps.SetColumnProperty("Field_Sales_Rep","Value","ShowCaption",False)</string>
+        <string />
+        <string>gui.SS_Branch_Maint_Form.GsGrid_FieldSalesReps.MainView("Field_Sales_Rep")</string>
+        <string />
+        <string>'populating picklist ddl</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_PickListSelection.AddItem("")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_PickListSelection.AddItem("Market")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_PickListSelection.AddItem("Territory")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_PickListSelection.AddItem("Region")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_PickListSelection.AddItem("Internal Region")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_PickListSelection.AddItem("Field Sales Rep")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_PickListSelection.AddItem("Channel")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_PickListSelection.AddItem("Location")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_PickListSelection.AddItem("Class Code")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_PickListSelection.AddItem("Line Access")</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_PickListSelection.AddItem("Discount")</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Populate_DropdownLists_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Populate_DropdownLists.End</string>
+        <string />
+        <string>Program.Sub.RowCell_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("RowCell_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.iX.Declare(Long)</string>
+        <string>V.Local.iY.Declare(Long)</string>
+        <string />
+        <string>V.Global.iRowIndex.Set(V.Args.RowIndex)</string>
+        <string>'getting control name for deleting picklist values</string>
+        <string>V.Global.sControlName.Set(V.Args.ControlName)</string>
+        <string />
+        <string>F.Intrinsic.API.GetMousePosition(V.Local.iX,V.Local.iY)</string>
+        <string />
+        <string>F.Intrinsic.Control.SelectCase(V.Args.ControlName)</string>
+        <string>	F.Intrinsic.Control.Case("GSGRIDCONTROL_BRANCH")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ConTextMenuShow("Branch",V.Local.iX,V.Local.iY)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_FIELDSALESREPS")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ContextMenuSetItemText("PickList","Item 0","Delete Field Sales Rep")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ConTextMenuShow("PickList",V.Local.iX,V.Local.iY)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_INTERNALREGION")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ContextMenuSetItemText("PickList","Item 0","Delete Internal Region")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ConTextMenuShow("PickList",V.Local.iX,V.Local.iY)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_MARKET")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ContextMenuSetItemText("PickList","Item 0","Delete Market")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ConTextMenuShow("PickList",V.Local.iX,V.Local.iY)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_REGION")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ContextMenuSetItemText("PickList","Item 0","Delete Region")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ConTextMenuShow("PickList",V.Local.iX,V.Local.iY)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_TERRITORY")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ContextMenuSetItemText("PickList","Item 0","Delete Territory")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ConTextMenuShow("PickList",V.Local.iX,V.Local.iY)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_CLASSCODE")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ContextMenuSetItemText("PickList","Item 0","Delete Class Code")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ConTextMenuShow("PickList",V.Local.iX,V.Local.iY)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_DISCOUNT")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ContextMenuSetItemText("PickList","Item 0","Delete Discount")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ConTextMenuShow("PickList",V.Local.iX,V.Local.iY)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_LINEACCESS")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ContextMenuSetItemText("PickList","Item 0","Delete Line Access")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ConTextMenuShow("PickList",V.Local.iX,V.Local.iY)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_CHANNEL")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ContextMenuSetItemText("PickList","Item 0","Delete Channel")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ConTextMenuShow("PickList",V.Local.iX,V.Local.iY)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_LOCATION")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ContextMenuSetItemText("PickList","Item 0","Delete Location")</string>
+        <string>		Gui.SS_Branch_Maint_Form..ConTextMenuShow("PickList",V.Local.iX,V.Local.iY)</string>
+        <string />
+        <string>F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("RowCell_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.RowCell_Click.End</string>
+        <string />
+        <string>Program.Sub.PickListDelete.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("PickListDelete_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>Gui.SS_Branch_Maint_Form.cmd_PickListSave.Enabled(True)</string>
+        <string />
+        <string>F.Intrinsic.Control.SelectCase(V.Global.sControlName)</string>
+        <string>	F.Intrinsic.Control.Case("GSGRID_FIELDSALESREPS")</string>
+        <string>		F.Data.DataTable.DeleteRow("Field_Sales_Reps",V.Global.iRowIndex)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_INTERNALREGION")</string>
+        <string>		F.Data.DataTable.DeleteRow("Internal_Region",V.Global.iRowIndex)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_MARKET")</string>
+        <string>		F.Data.DataTable.DeleteRow("Market",V.Global.iRowIndex)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_REGION")</string>
+        <string>		F.Data.DataTable.DeleteRow("Region",V.Global.iRowIndex)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_TERRITORY")</string>
+        <string>		F.Data.DataTable.DeleteRow("Territory",V.Global.iRowIndex)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_CLASSCODE")</string>
+        <string>		F.Data.DataTable.DeleteRow("Class_Code",V.Global.iRowIndex)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_DISCOUNT")</string>
+        <string>		F.Data.DataTable.DeleteRow("Discount",V.Global.iRowIndex)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_LINEACCESS")</string>
+        <string>		F.Data.DataTable.DeleteRow("Line_Access",V.Global.iRowIndex)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_CHANNEL")</string>
+        <string>		F.Data.DataTable.DeleteRow("Channel",V.Global.iRowIndex)</string>
+        <string />
+        <string>	F.Intrinsic.Control.Case("GSGRID_LOCATION")</string>
+        <string>		F.Data.DataTable.DeleteRow("Location",V.Global.iRowIndex)</string>
+        <string />
+        <string>F.Intrinsic.Control.EndSelect</string>
+        <string>'seeing index back to -1</string>
+        <string>V.Global.iRowIndex.Set(-1)</string>
+        <string>'setting control name back to ' '</string>
+        <string>V.Global.sControlName.Set("")</string>
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("PickListDelete_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.PickListDelete.End</string>
+        <string />
+        <string>Program.Sub.CustDelete.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("CustDelete_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.Control.SelectCase(V.Args.ItemName)</string>
+        <string>	F.Intrinsic.Control.Case("ITEM 0")</string>
+        <string>		F.Data.DataTable.DeleteRow("BranchLine",V.Global.iRowIndex)</string>
+        <string />
+        <string>		Gui.SS_Branch_Maint_Form.txt_Branch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txtBranchName.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_SalesForcast.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_ChannelType.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_ClassCode.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_Discount.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_IntRegion.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_LineAcess.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_Loc.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_Market.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.ddl_SalesRep.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Add1Branch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_Add2Branch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_CityBranch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_CountryBranch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_StateBranch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.txt_ZipBranch.Text("")</string>
+        <string>		Gui.SS_Branch_Maint_Form.chk_Dropped.Value(0)</string>
+        <string>		Gui.SS_Branch_Maint_Form.chk_NAcct.Value(0)</string>
+        <string>		Gui.SS_Branch_Maint_Form.chk_CopyCustAddress.Value(0)</string>
+        <string />
+        <string>'	F.Intrinsic.Control.Case("ITEM 1")</string>
+        <string>'		F.Data.DataTable.DeleteRow("BranchLine")</string>
+        <string>'		F.Data.DataTable.DeleteRow("BranchHead")</string>
+        <string>'</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txt_Branch.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txtBranchName.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.chk_CopyCustAddress.Value(0)</string>
+        <string>'		F.Intrinsic.Control.CallSub(chk_copycustaddress_click)</string>
+        <string>'</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txt_CustName.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txt_Add1Cust.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txt_Add2Cust.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txt_CityCust.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txt_CountryCust.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txt_StateCust.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txt_ZipCust.Text("")</string>
+        <string>'</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txt_Branch.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txtBranchName.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txt_SalesForcast.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.ddl_ChannelType.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.ddl_ClassCode.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.ddl_Discount.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.ddl_IntRegion.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.ddl_LineAcess.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.ddl_Loc.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.ddl_Market.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.ddl_SalesRep.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txt_Add1Branch.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txt_Add2Branch.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txt_CityBranch.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txt_CountryBranch.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txt_StateBranch.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.txt_ZipBranch.Text("")</string>
+        <string>'		Gui.SS_Branch_Maint_Form.chk_Dropped.Value(0)</string>
+        <string>'		Gui.SS_Branch_Maint_Form.chk_NAcct.Value(0)</string>
+        <string>'		Gui.SS_Branch_Maint_Form.chk_CopyCustAddress.Value(0)</string>
+        <string />
+        <string>F.Intrinsic.Control.EndSelect</string>
+        <string />
+        <string>V.Global.iRowIndex.Set(-1)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("CustDelete_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.CustDelete.End</string>
+        <string />
+        <string>Program.Sub.GsGridControl_Branch_RowCellClick.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("GsGridControl_Branch_RowCellClick_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sDiscount.Declare(String)</string>
+        <string>V.Local.sCustomer.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string />
+        <string>V.Global.iRowIndex.Set(V.Args.RowIndex)</string>
+        <string />
+        <string>F.Intrinsic.String.Split(V.DataTable.BranchLine(V.Global.iRowIndex).Branch!FieldValTrim,"-",V.Local.sCustomer)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.DataTable.Customer.Exists,=,True)</string>
+        <string>	F.Data.DataTable.Close("Customer")</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.String.Build("Select Customer, Name_Customer, Address1, Address2, City, State, Zip, Country From V_Customer_Master Where Customer = '{0}'",V.Local.sCustomer.Trim,V.Local.sSql)</string>
+        <string>F.Data.DataTable.CreateFromSQL("Customer","con",V.Local.sSql,True)</string>
+        <string />
+        <string>Gui.SS_Branch_Maint_Form.cmd_BranchSave.Enabled(True)</string>
+        <string>'setting customer informationg to text boxes from grid</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Branch.Text(V.DataTable.BranchLine(V.Global.iRowIndex).Branch!FieldValTrim)</string>
+        <string>Gui.SS_Branch_Maint_Form.txtBranchName.Text(V.DataTable.BranchLine(V.Global.iRowIndex).Branch_Name!FieldValTrim)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_SalesForcast.Text(V.DataTable.BranchLine(V.Global.iRowIndex).Sales_Forecast_CY!FieldValTrim)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_ChannelType.Text(V.DataTable.BranchLine(V.Global.iRowIndex).Channel_Type!FieldValTrim)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_ClassCode.Text(V.DataTable.BranchLine(V.Global.iRowIndex).Class_Code!FieldValTrim)</string>
+        <string>F.Intrinsic.Math.Mult(V.DataTable.BranchLine(V.Global.iRowIndex).Discount!FieldValFloat,100,V.Local.sDiscount.Float)</string>
+        <string>F.Intrinsic.String.Build("{0}%",V.Local.sDiscount,V.Local.sDiscount)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Discount.Text(V.Local.sDiscount)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_IntRegion.Text(V.DataTable.BranchLine(V.Global.iRowIndex).Internal_Region!FieldValTrim)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_LineAcess.Text(V.DataTable.BranchLine(V.Global.iRowIndex).Region!FieldValTrim)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Loc.Text(V.DataTable.BranchLine(V.Global.iRowIndex).Locale!FieldValTrim)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Market.Text(V.DataTable.BranchLine(V.Global.iRowIndex).Market!FieldValTrim)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Region.Text(V.DataTable.BranchLine(V.Global.iRowIndex).Region!FieldValTrim)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_SalesRep.Text(V.DataTable.BranchLine(V.Global.iRowIndex).Field_Sales_Rep!FieldValTrim)</string>
+        <string>Gui.SS_Branch_Maint_Form.ddl_Territory.Text(V.DataTable.BranchLine(V.Global.iRowIndex).Territory!FieldValTrim)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Add1Branch.Text(V.DataTable.BranchLine(V.Global.iRowIndex).B_Address1!FieldValTrim)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_Add2Branch.Text(V.DataTable.BranchLine(V.Global.iRowIndex).B_Address2!FieldValTrim)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CityBranch.Text(V.DataTable.BranchLine(V.Global.iRowIndex).B_City!FieldValTrim)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_StateBranch.Text(V.DataTable.BranchLine(V.Global.iRowIndex).B_State!FieldValTrim)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_ZipBranch.Text(V.DataTable.BranchLine(V.Global.iRowIndex).B_Zip!FieldValTrim)</string>
+        <string>Gui.SS_Branch_Maint_Form.txt_CountryBranch.Text(V.DataTable.BranchLine(V.Global.iRowIndex).B_Country!FieldValTrim)</string>
+        <string>F.Intrinsic.Control.If(V.DataTable.BranchLine(V.Global.iRowIndex).National_Account!FieldVal,=,True)</string>
+        <string>	Gui.SS_Branch_Maint_Form.chk_NAcct.Value(1)</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	Gui.SS_Branch_Maint_Form.chk_NAcct.Value(0)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>F.Intrinsic.Control.If(V.DataTable.BranchLine(V.Global.iRowIndex).Dropped!FieldVal,=,True)</string>
+        <string>	Gui.SS_Branch_Maint_Form.chk_Dropped.Value(1)</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	Gui.SS_Branch_Maint_Form.chk_Dropped.Value(0)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("GsGridControl_Branch_RowCellClick_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.GsGridControl_Branch_RowCellClick.End</string>
+        <string />
+        <string>Program.Sub.ddlSecurity_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("ddlSecurity_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.DataTable.Group.RowCount--,=,-1)</string>
+        <string>	F.Data.DataTable.AddRow("Group","Rec_ID",1,"Group_Name",V.Screen.SS_Branch_Maint_Form!ddlSecurity.Text)</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Data.DataTable.SetValue("Group",0,"Group_Name",V.Screen.SS_Branch_Maint_Form!ddlSecurity.Text)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Data.DataTable.SaveToDB("Group","con","GCG_4353_Group_Sec","Rec_ID")</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("ddlSecurity_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4353_Branch_Maintenance.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(ss_branch_maint_form_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.ddlSecurity_Click.End</string>
+        <string />
+        <string>Program.Sub.Comments.Start</string>
+        <string>${$0$}$$}$RLK$}$2/9/2017 12:35:56 PM$}$False</string>
+        <string>Program.Sub.Comments.End</string>
+      </Lines>
+    </TextStrings>
+  </TextSource>
+  <Scrolling>
+    <WindowOriginY>1526</WindowOriginY>
+    <Options>None</Options>
+  </Scrolling>
+  <Outlining>
+    <AllowOutlining>true</AllowOutlining>
+    <ImageSize>8</ImageSize>
+    <Ranges>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>0</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>332</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSU</Text>
+        <DisplayText>Program.Sub.ScreenSU</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>334</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>338</Y>
+        </EndPoint>
+        <Text>Program.Sub.Preflight</Text>
+        <DisplayText>Program.Sub.Preflight</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>340</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>459</Y>
+        </EndPoint>
+        <Text>Program.Sub.Main</Text>
+        <DisplayText>Program.Sub.Main</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>461</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>488</Y>
+        </EndPoint>
+        <Text>Program.Sub.SS_Branch_Maint_Form_UnLoad</Text>
+        <DisplayText>Program.Sub.SS_Branch_Maint_Form_UnLoad</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>490</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>545</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmd_Save_Click</Text>
+        <DisplayText>Program.Sub.cmd_Save_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>547</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>616</Y>
+        </EndPoint>
+        <Text>Program.Sub.txt_Branch_GotFocus</Text>
+        <DisplayText>Program.Sub.txt_Branch_GotFocus</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>618</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>776</Y>
+        </EndPoint>
+        <Text>Program.Sub.txt_Branch_LostFocus</Text>
+        <DisplayText>Program.Sub.txt_Branch_LostFocus</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>778</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>823</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmd_Cust_Click</Text>
+        <DisplayText>Program.Sub.cmd_Cust_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>825</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>881</Y>
+        </EndPoint>
+        <Text>Program.Sub.Build_Table</Text>
+        <DisplayText>Program.Sub.Build_Table</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>883</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1032</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmd_Branch_Click</Text>
+        <DisplayText>Program.Sub.cmd_Branch_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1034</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1163</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmd_BranchAdd_Click</Text>
+        <DisplayText>Program.Sub.cmd_BranchAdd_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1165</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1196</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdPickListAdd_Click</Text>
+        <DisplayText>Program.Sub.cmdPickListAdd_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1198</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1218</Y>
+        </EndPoint>
+        <Text>Program.Sub.ddl_PickListSelection_Click</Text>
+        <DisplayText>Program.Sub.ddl_PickListSelection_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1220</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1260</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmd_PickListSave_Click</Text>
+        <DisplayText>Program.Sub.cmd_PickListSave_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1262</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1310</Y>
+        </EndPoint>
+        <Text>Program.Sub.chk_CopyCustAddress_Click</Text>
+        <DisplayText>Program.Sub.chk_CopyCustAddress_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1312</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1607</Y>
+        </EndPoint>
+        <Text>Program.Sub.Populate_DropdownLists</Text>
+        <DisplayText>Program.Sub.Populate_DropdownLists</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1609</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1679</Y>
+        </EndPoint>
+        <Text>Program.Sub.RowCell_Click</Text>
+        <DisplayText>Program.Sub.RowCell_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1681</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1735</Y>
+        </EndPoint>
+        <Text>Program.Sub.PickListDelete</Text>
+        <DisplayText>Program.Sub.PickListDelete</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1737</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1820</Y>
+        </EndPoint>
+        <Text>Program.Sub.CustDelete</Text>
+        <DisplayText>Program.Sub.CustDelete</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1822</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1886</Y>
+        </EndPoint>
+        <Text>Program.Sub.GsGridControl_Branch_RowCellClick</Text>
+        <DisplayText>Program.Sub.GsGridControl_Branch_RowCellClick</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1888</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1913</Y>
+        </EndPoint>
+        <Text>Program.Sub.ddlSecurity_Click</Text>
+        <DisplayText>Program.Sub.ddlSecurity_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1915</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1917</Y>
+        </EndPoint>
+        <Text>Program.Sub.Comments</Text>
+        <DisplayText>Program.Sub.Comments</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+    </Ranges>
+  </Outlining>
+  <HyperText />
+  <Spelling />
+  <Braces />
+</SyntaxEdit>
