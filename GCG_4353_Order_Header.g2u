@@ -1,0 +1,245 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+F.Intrinsic.Control.SetErrorHandler("Main_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sSql.Declare(String)
+
+F.ODBC.Connection!Con.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass)
+
+F.Intrinsic.Control.SelectCase(V.Caller.Hook)
+
+	'populate hook	
+	F.Intrinsic.Control.Case(11560)
+		V.Passed.GAB-LBL-1.Set("Branch")
+		V.Passed.GAB-LBL-2.Set("Taker")
+		V.Passed.GAB-LBL-3.Set("Taker Name")
+		V.Passed.GAB-BTN-1.Set("^")
+		F.Intrinsic.Variable.SetProperty("GAB-TEXT-1","PL",510)
+		F.Intrinsic.Variable.SetProperty("GAB-TEXT-1","PT",89)
+		F.Intrinsic.Variable.SetProperty("GAB-TEXT-1","PW",60)
+		F.Intrinsic.Variable.SetProperty("GAB-LBL-1","PL",510)
+		F.Intrinsic.Variable.SetProperty("GAB-LBL-1","PT",72)
+		F.Intrinsic.Variable.SetProperty("GAB-LBL-1","PW",45)
+		F.Intrinsic.Variable.SetProperty("GAB-BTN-1","PL",572)
+		F.Intrinsic.Variable.SetProperty("GAB-BTN-1","PT",86)
+		F.Intrinsic.Variable.SetProperty("GAB-BTN-1","PW",20)
+		F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-LBL-1,"HIDE",0)
+		F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-TEXT-1,"HIDE",0)
+		F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-BTN-1,"HIDE",0)
+		F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-LBL-1,"LOCK",1)
+		F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-TEXT-1,"LOCK",1)
+		F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-BTN-1,"LOCK",0)
+
+		F.Intrinsic.Variable.SetProperty("GAB-TEXT-2","PL",595)
+		F.Intrinsic.Variable.SetProperty("GAB-TEXT-2","PT",89)
+		F.Intrinsic.Variable.SetProperty("GAB-TEXT-2","PW",60)
+		F.Intrinsic.Variable.SetProperty("GAB-LBL-2","PL",595)
+		F.Intrinsic.Variable.SetProperty("GAB-LBL-2","PT",72)
+		F.Intrinsic.Variable.SetProperty("GAB-LBL-2","PW",45)
+		F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-LBL-2,"HIDE",0)
+		F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-TEXT-2,"HIDE",0)
+		F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-LBL-2,"LOCK",1)
+		F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-TEXT-2,"LOCK",1)	
+
+		F.Intrinsic.Variable.SetProperty("GAB-TEXT-3","PL",665)
+		F.Intrinsic.Variable.SetProperty("GAB-TEXT-3","PT",89)
+		F.Intrinsic.Variable.SetProperty("GAB-TEXT-3","PW",150)
+		F.Intrinsic.Variable.SetProperty("GAB-LBL-3","PL",665)
+		F.Intrinsic.Variable.SetProperty("GAB-LBL-3","PT",72)
+		F.Intrinsic.Variable.SetProperty("GAB-LBL-3","PW",75)
+		F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-LBL-3,"HIDE",0)
+		F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-TEXT-3,"HIDE",0)
+		F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-LBL-3,"LOCK",1)
+		F.Intrinsic.UI.ChangeCallerProperty(V.Passed.GAB-TEXT-3,"LOCK",1)
+
+	'ord Selected hook
+	F.Intrinsic.Control.Case(11565)
+		F.Intrinsic.String.Build("Select * From GCG_4353_Ord_Header Where Order_No ='{0}'",V.Passed.000003.Format*00000000,V.Local.sSql)
+		F.Data.DataTable.CreateFromSQL("Branch","con",V.Local.sSql,True)
+
+		F.Intrinsic.Control.If(V.DataTable.Branch.RowCount--,<>,-1)
+			V.Passed.GAB-TEXT-1.Set(V.DataTable.Branch(0).Branch!FieldValTrim)
+			V.Passed.GAB-TEXT-2.Set(V.DataTable.Branch(0).Taker!FieldValTrim)
+			V.Passed.GAB-TEXT-3.Set(V.DataTable.Branch(0).Taker_Name!FieldValTrim)
+		F.Intrinsic.Control.Else
+			V.Passed.GAB-TEXT-1.Set("")
+			V.Passed.GAB-TEXT-2.Set("")
+			V.Passed.GAB-TEXT-3.Set("")
+		F.Intrinsic.Control.EndIf
+
+		F.Data.DataTable.Close("Branch")	
+
+	'pre delete hook
+	F.Intrinsic.Control.Case(11881)
+		F.Intrinsic.String.Build("Select * From GCG_4353_Ord_Header Where Order_No ='{0}'",V.Passed.000003.Format*00000000,V.Local.sSql)
+		F.Data.DataTable.CreateFromSQL("Branch","con",V.Local.sSql,True)
+
+		F.Data.DataTable.DeleteRow("Branch")
+
+		F.Data.DataTable.SaveToDB("Branch","con","GCG_4353_Ord_Header","Order_No")
+
+		F.Data.DataTable.Close("Branch")
+
+		F.Intrinsic.Control.CallSub(exit)
+
+'	'pre save hook
+'	F.Intrinsic.Control.Case(11869)
+'		F.Intrinsic.Control.If(V.Passed.GAB-TEXT-1.Length,=,0)
+'			F.Intrinsic.UI.Msgbox("Select a Branch before saving.")
+'			V.Passed.777777.Set(1)
+'			F.Intrinsic.Control.CallSub(exit)
+'		F.Intrinsic.Control.EndIf
+'		
+'		F.Intrinsic.String.Build("Select * From GCG_4353_Ord_Header Where Order_No ='{0}'",V.Passed.000003.Format*00000000,V.Local.sSql)
+'		F.Data.DataTable.CreateFromSQL("Branch","con",V.Local.sSql,True)
+'
+'		F.Intrinsic.Control.If(V.DataTable.Branch.RowCount--,=,-1)
+'			F.Data.DataTable.AddRow("Branch","Order_No",V.Passed.000003.Format*00000000,"Branch",V.Passed.GAB-Text-1,"Customer",V.Passed.000006,"Taker",V.Passed.GAB-Text-2,"Taker_Name",V.Passed.GAB-Text-3)
+'		F.Intrinsic.Control.Else
+'			F.Data.DataTable.SetValue("Branch",0,"Branch",V.Passed.GAB-Text-1)
+'		F.Intrinsic.Control.EndIf
+'		
+'		F.Data.DataTable.SaveToDB("Branch","con","GCG_4353_Ord_Header","Order_No")
+'			
+'		F.Data.DataTable.Close("Branch")
+'		
+'		F.Intrinsic.Control.CallSub(exit)
+
+	F.Intrinsic.Control.Case(11872)
+		F.Intrinsic.String.Build("Select * From GCG_4353_Ord_Header Where Order_No ='{0}'",V.Passed.000003.Format*00000000,V.Local.sSql)
+		F.Data.DataTable.CreateFromSQL("Branch","con",V.Local.sSql,True)
+
+		F.Intrinsic.Control.If(V.DataTable.Branch.RowCount--,=,-1)
+			F.Data.DataTable.AddRow("Branch","Order_No",V.Passed.000003.Format*00000000,"Branch",V.Passed.GAB-Text-1,"Customer",V.Passed.000006,"Taker",V.Passed.GAB-Text-2,"Taker_Name",V.Passed.GAB-Text-3)
+		F.Intrinsic.Control.Else
+			F.Data.DataTable.SetValue("Branch",0,"Branch",V.Passed.GAB-Text-1,"Customer",V.Passed.000006,"Taker",V.Passed.GAB-Text-2,"Taker_Name",V.Passed.GAB-Text-3)
+		F.Intrinsic.Control.EndIf
+
+		F.Data.DataTable.SaveToDB("Branch","con","GCG_4353_Ord_Header","Order_No")
+
+		F.Data.DataTable.Close("Branch")
+
+		F.Intrinsic.Control.CallSub(exit)
+
+	'button 1 hook
+	F.Intrinsic.Control.Case(11950)
+		F.Intrinsic.Control.CallSub(branchbrowser)
+
+	'clear hook
+	F.Intrinsic.Control.Case(11875)
+		V.Passed.GAB-TEXT-1.Set("")
+		V.Passed.GAB-TEXT-2.Set("")
+		V.Passed.GAB-TEXT-3.Set("")
+
+F.Intrinsic.Control.EndSelect
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("Main_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4353_Order_Header.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(exit)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.Main.End
+
+Program.Sub.BranchBrowser.Start
+F.Intrinsic.Control.SetErrorHandler("BranchBrowser_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sTitles.Declare(String)
+V.Local.sWidths.Declare(String)
+V.Local.sRet.Declare(String)
+V.Local.sSql.Declare(String)
+V.Local.sEmpNum.Declare(String)
+V.Local.sEmpName.Declare(String)
+
+F.Intrinsic.String.Build("Select Branch, Branch_Name From GCG_4353_Branch_Head a Join GCG_4353_Branch_Line b on a.Customer = b.Customer  Where a.Customer = '{0}'",V.Passed.000006,V.Local.sSql)
+
+V.Local.sTitles.Set("Branch*!*Branch Name")
+V.Local.sWidths.Set("2000*!*5000")
+
+F.Intrinsic.String.Split(V.Local.sTitles,"*!*",V.Local.sTitles)
+F.Intrinsic.String.Split(V.Local.sWidths,"*!*",V.Local.sWidths)
+
+'browser list is parsed for the type-ahead substring as it is being typed
+F.Intrinsic.UI.SetBrowserHotTypeAhead(True)
+
+'Opening browser for beginning description
+F.Intrinsic.UI.Browser("Select Branch","con",V.Local.sSql,V.Local.sTitles,V.Local.sWidths,7000,8000,V.Local.sRet)
+F.Intrinsic.Control.If(V.Local.sRet,<>,"***CANCEL***")
+	F.Intrinsic.String.Split(V.Local.sRet,"*!*",V.Local.sRet)
+	'getting employee Number
+	F.Global.Security.GetEmpNoFromUser(V.Caller.User,V.Local.sEmpNum)
+	'getting employee Name
+'	Function.Global.Security.GetFullName(V.Caller.CompanyCode, V.Local.sEmpName)
+	V.Local.iUser.Declare(Long)
+	Function.Global.Security.GetUserID(V.Caller.User, V.Caller.CompanyCode, V.Local.iUser)
+	Function.Global.Security.GetUsernameFromID(V.Local.iUser, V.Local.sEmpName)
+	F.Intrinsic.String.Split(V.Local.sEmpName,"*!*",V.Local.sEmpName)
+	'setting branch value to extra text box on order screen
+	V.Passed.GAB-Text-1.Set(V.Local.sRet)
+'	V.Passed.GAB-Text-2.Set(V.Local.sEmpNum)
+	V.Passed.GAB-Text-2.Set(V.Local.iUser)
+	V.Passed.GAB-Text-3.Set(V.Local.sEmpName(0))
+
+	F.Intrinsic.Control.CallSub(exit)
+F.Intrinsic.Control.EndIf
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("BranchBrowser_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4353_Order_Header.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.CallSub(exit)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.BranchBrowser.End
+
+Program.Sub.Exit.Start
+F.Intrinsic.Control.SetErrorHandler("Exit_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+'closing connection
+F.ODBC.Connection!Con.Close
+'ending program
+F.Intrinsic.Control.End
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("Exit_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4353_Order_Header.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.End
+
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.Exit.End
+
+Program.Sub.Comments.Start
+${$0$}$$}$RLK$}$2/13/2017 10:56:33 AM$}$False
+Program.Sub.Comments.End
+
+Program.Sub.ScreenSS.Start
+SS_Form1{{CAPTION::Select Branch
+SS_Form1.CTRL{{NAME::ddl_Branch\\TYPE::4\\CAPTION::Select Branch\\TABSTOP::1\\GROUP::-1\\BROWSER::0\\SIZE::1.25
+SS_Form1.CTRL{{NAME::cmd_Branch\\TYPE::5\\CAPTION::OK\\TABSTOP::2\\GROUP::-1\\BROWSER::0\\SIZE::1
+
+Program.Sub.ScreenSS.End
+
