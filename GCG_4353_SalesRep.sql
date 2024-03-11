@@ -1,0 +1,3 @@
+Create Table "GCG_4353_SalesRep"(
+"REC_ID" BIGINT NOT NULL,
+"VALUE" CHAR(30));
