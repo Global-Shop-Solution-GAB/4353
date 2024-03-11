@@ -1,0 +1,4 @@
+CREATE TABLE "GCG_4353_Group_Sec"(
+ "Rec_ID" BIGINT NOT NULL ,
+ "Group_Name" VARCHAR(10) NOT NULL ,
+ PRIMARY KEY ("Rec_ID"));
